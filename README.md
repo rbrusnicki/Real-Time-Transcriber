@@ -48,20 +48,20 @@ pip install -r requirements.txt
 
 - **Language Settings**: The script is currently configured to transcribe in Portuguese, but you can change it to any language by modifying the `language` parameter in the `model.transcribe()` function in the `process_audio()` method. For example:
   ```python
-  # For Spanish:
-  result = model.transcribe(audio_data, fp16=False, language="es", task="transcribe")
-  
   # For English:
   result = model.transcribe(audio_data, fp16=False, language="en", task="transcribe")
-  
+
+  # For German:
+  result = model.transcribe(audio_data, fp16=False, language="de", task="transcribe")
+
   # For French:
   result = model.transcribe(audio_data, fp16=False, language="fr", task="transcribe")
   
-  # For German:
-  result = model.transcribe(audio_data, fp16=False, language="de", task="transcribe")
-  
   # For Italian:
   result = model.transcribe(audio_data, fp16=False, language="it", task="transcribe")
+  
+  # For Spanish:
+  result = model.transcribe(audio_data, fp16=False, language="es", task="transcribe")
   ```
 
 - The default trigger phrase is "Hey Jarvis". You can change it by modifying the `TRIGGER_PHRASE` variable in the script.
@@ -74,7 +74,6 @@ pip install -r requirements.txt
 
 - The script uses the Whisper "large" model for improved accuracy.
 - The trigger detection is language-agnostic to better recognize "Hey Jarvis" regardless of accent.
-- After trigger detection, the script is configured to transcribe in Portuguese, but can be modified for any language.
-- Common English phrases like "thank you" are automatically filtered out.
+- After trigger detection, the script is configured to transcribe in Portuguese, but can be modified for other languages.
 - The script adds a space after each transcription segment.
 - For better performance, ensure you're in a quiet environment with clear speech. 

@@ -193,12 +193,12 @@ def process_audio():
                     if transcription and transcription != last_text:
                         print(f"Transcribed: {transcription}")
                         
-                        # Enhanced filter for English phrases (uncomment if needed)
-                        unwanted_phrases = ["thank you", "thanks", "thank", "you", "obrigado", "obrigada", "thanks for"]
-                        for phrase in unwanted_phrases:
-                            if phrase in transcription.lower():
-                                transcription = transcription.lower().replace(phrase, "").strip()
-                                print(f"Removed unwanted phrase: '{phrase}'")
+                        # # Enhanced filter for English phrases (uncomment if needed)
+                        # unwanted_phrases = ["thank you", "thanks", "thank", "you", "obrigado", "obrigada", "thanks for"]
+                        # for phrase in unwanted_phrases:
+                        #     if phrase in transcription.lower():
+                        #         transcription = transcription.lower().replace(phrase, "").strip()
+                        #         print(f"Removed unwanted phrase: '{phrase}'")
                         
                         # If transcription is empty after filtering, skip it
                         if not transcription.strip():
