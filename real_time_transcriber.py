@@ -5,6 +5,8 @@ import threading
 import queue
 import time
 import keyboard
+import os
+import datetime
 from pynput.keyboard import Controller, Listener as KeyboardListener, Key
 from pynput.mouse import Listener as MouseListener
 
@@ -41,6 +43,24 @@ last_input_time = 0
 is_typing = False
 # Flag to track if acknowledgment was typed and needs to be erased
 acknowledgment_typed = False
+
+# Set up logging
+LOG_FILE = "whisper_detection_log.txt"
+def log_detection_attempt(transcription, trigger_detected=False, detected_phrase=""):
+    """Log all detection attempts to better understand what Whisper is interpreting"""
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"[{timestamp}] "
+    if trigger_detected:
+        log_entry += f"DETECTED ({detected_phrase}): {transcription}"
+    else:
+        log_entry += f"MISSED: {transcription}"
+    
+    # Print to terminal
+    print(log_entry)
+    
+    # Write to log file
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(log_entry + "\n")
 
 def pause_transcription():
     """Function to pause transcription but keep recording"""
@@ -128,6 +148,7 @@ def record_audio():
     print(f"Say '{TRIGGER_PHRASE.title()}' to activate transcription.")
     print("Transcription will automatically pause when you use keyboard or mouse.")
     print("Press 'Esc' to stop recording and exit.")
+    print(f"Logging detection attempts to {LOG_FILE}")
     
     # Continue recording until stopped
     while recording:
@@ -189,6 +210,9 @@ def process_audio():
                             trigger_detected = True
                             detected_phrase = "jarvis-like word"
                     
+                    # Log every detection attempt to help improve the system
+                    log_detection_attempt(transcription, trigger_detected, detected_phrase)
+                    
                     if trigger_detected and not cooldown_active:
                         print(f"Trigger detected! ({detected_phrase}) Starting to transcribe...")
                         with input_lock:
@@ -212,12 +236,12 @@ def process_audio():
                     if transcription and transcription != last_text:
                         print(f"Transcribed: {transcription}")
                         
-                        # # Enhanced filter for English phrases (uncomment if needed)
-                        # unwanted_phrases = ["thank you", "thanks", "thank", "you", "obrigado", "obrigada", "thanks for"]
-                        # for phrase in unwanted_phrases:
-                        #     if phrase in transcription.lower():
-                        #         transcription = transcription.lower().replace(phrase, "").strip()
-                        #         print(f"Removed unwanted phrase: '{phrase}'")
+                        # Enhanced filter for English phrases (uncomment if needed)
+                        unwanted_phrases = ["thank you", "thanks", "thank", "you", "obrigado", "obrigada", "thanks for"]
+                        for phrase in unwanted_phrases:
+                            if phrase in transcription.lower():
+                                transcription = transcription.lower().replace(phrase, "").strip()
+                                print(f"Removed unwanted phrase: '{phrase}'")
                         
                         # If transcription is empty after filtering, skip it
                         if not transcription.strip():
@@ -259,6 +283,10 @@ def main():
     
     # Initialize last input time
     last_input_time = time.time()
+    
+    # Create a new log file or append to existing one
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"\n--- New session started: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---\n")
     
     # Start keyboard and mouse listeners in separate threads
     keyboard_listener = KeyboardListener(on_press=on_key_press)

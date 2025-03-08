@@ -44,6 +44,21 @@ pip install -r requirements.txt
 
 9. Press the `Esc` key to stop the recording and exit the script completely.
 
+## Trigger Detection Logging
+
+The script now logs all trigger detection attempts to help improve accuracy. Every time you speak:
+
+- The script records what was actually detected by Whisper
+- It logs whether the trigger was successfully recognized or missed
+- All logs are stored in `whisper_detection_log.txt` with timestamps
+- This helps identify common misinterpretations for future improvement
+
+The log file format is:
+```
+[TIMESTAMP] DETECTED (variation): transcribed text
+[TIMESTAMP] MISSED: transcribed text
+```
+
 ## Customization
 
 - **Language Settings**: The script is currently configured to transcribe in Portuguese, but you can change it to any language by modifying the `language` parameter in the `model.transcribe()` function in the `process_audio()` method. For example:
@@ -78,6 +93,7 @@ pip install -r requirements.txt
 - The script uses the Whisper "large" model for improved accuracy.
 - The trigger detection is language-agnostic to better recognize "Hey Jarvis" regardless of accent.
 - The improved trigger detection can recognize various pronunciations and partial matches.
+- All detection attempts are logged to help improve future recognition.
 - After trigger detection, the script is configured to transcribe in Portuguese, but can be modified for other languages.
 - The script adds a space after each transcription segment.
 - For better performance, ensure you're in a quiet environment with clear speech. 
