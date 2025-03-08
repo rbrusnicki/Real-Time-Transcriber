@@ -32,10 +32,10 @@ pip install -r requirements.txt
 
 4. Say the trigger phrase "Hey Jarvis" to activate transcription mode.
 
-5. The script will type a robot emoji "🤖" to acknowledge it heard you.
+5. The script will type "Sim?" to acknowledge it heard you.
 
 6. Start speaking in Portuguese, and the script will:
-   - Erase the robot emoji acknowledgment
+   - Erase the "Sim?" acknowledgment
    - Type your transcribed speech in its place
 
 7. **The transcription will automatically pause when you use your keyboard or mouse.** This prevents interference with your manual typing.

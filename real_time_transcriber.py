@@ -175,11 +175,11 @@ def process_audio():
                         with input_lock:
                             triggered = True
                         
-                        # Type robot emoji as acknowledgment instead of "Sim?"
-                        acknowledgment = "🤖"
+                        # Type "Sim?" as acknowledgment instead of robot emoji
+                        acknowledgment = "Sim?"
                         type_with_flag(acknowledgment)
                         acknowledgment_typed = True
-                        print("Typed acknowledgment: '🤖'")
+                        print("Typed acknowledgment: 'Sim?'")
                         
                         # No need to process the trigger phrase text further
                         continue
@@ -207,8 +207,8 @@ def process_audio():
                         
                         # If we previously typed an acknowledgment, erase it before typing new text
                         if acknowledgment_typed:
-                            # Use the actual length of the acknowledgment (emoji counts as 1 character)
-                            acknowledgment_length = len("🤖")
+                            # Use the actual length of the acknowledgment
+                            acknowledgment_length = len("Sim?")
                             print(f"Erasing {acknowledgment_length} characters of acknowledgment")
                             erase_text(acknowledgment_length)
                             acknowledgment_typed = False
