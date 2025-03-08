@@ -56,6 +56,12 @@ pip install -r requirements.txt
   
   # For French:
   result = model.transcribe(audio_data, fp16=False, language="fr", task="transcribe")
+  
+  # For German:
+  result = model.transcribe(audio_data, fp16=False, language="de", task="transcribe")
+  
+  # For Italian:
+  result = model.transcribe(audio_data, fp16=False, language="it", task="transcribe")
   ```
 
 - The default trigger phrase is "Hey Jarvis". You can change it by modifying the `TRIGGER_PHRASE` variable in the script.
