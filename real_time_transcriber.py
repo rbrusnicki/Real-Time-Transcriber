@@ -30,6 +30,8 @@ audio_queue = queue.Queue()
 recording = True
 triggered = False
 TRIGGER_PHRASE = "hey jarvis"
+# Add alternative trigger phrases for better detection
+TRIGGER_VARIATIONS = ["hey jarvis", "ei jarvis", "hey service", "hey travis", "a jarvis", "hey jarbas", "hey davis"]
 # Add a lock for thread safety
 input_lock = threading.Lock()
 # Time to wait after user input before allowing transcription to resume
@@ -169,13 +171,30 @@ def process_audio():
                     with input_lock:
                         cooldown_active = (time.time() - last_input_time) < INPUT_COOLDOWN
                     
-                    # Check for trigger phrase
-                    if TRIGGER_PHRASE in transcription and not cooldown_active:
-                        print("Trigger detected! Starting to transcribe...")
+                    # Check for trigger phrase with improved detection
+                    trigger_detected = False
+                    detected_phrase = ""
+                    
+                    # Look for all possible trigger variations
+                    for phrase in TRIGGER_VARIATIONS:
+                        if phrase in transcription:
+                            trigger_detected = True
+                            detected_phrase = phrase
+                            break
+                    
+                    # If no exact match, try fuzzy detection (look for parts of trigger)
+                    if not trigger_detected:
+                        # Check if at least the "jarvis" part is detected
+                        if "jarvis" in transcription or "travis" in transcription or "jarbas" in transcription or "davis" in transcription:
+                            trigger_detected = True
+                            detected_phrase = "jarvis-like word"
+                    
+                    if trigger_detected and not cooldown_active:
+                        print(f"Trigger detected! ({detected_phrase}) Starting to transcribe...")
                         with input_lock:
                             triggered = True
                         
-                        # Type "Sim?" as acknowledgment instead of robot emoji
+                        # Type "Sim?" as acknowledgment
                         acknowledgment = "Sim?"
                         type_with_flag(acknowledgment)
                         acknowledgment_typed = True

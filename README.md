@@ -28,9 +28,9 @@ pip install -r requirements.txt
 
 2. The script will load the Whisper model (this may take a moment).
 
-3. When prompted, focus on the window where you want the transcribed text to appear.
+3. When prompted, focus on the window where you want the text to appear.
 
-4. Say the trigger phrase "Hey Jarvis" to activate transcription mode.
+4. Say the trigger phrase "Hey Jarvis" to activate transcription mode. The script can recognize variations like "Ei Jarvis" or even detect just the word "Jarvis".
 
 5. The script will type "Sim?" to acknowledge it heard you.
 
@@ -64,7 +64,10 @@ pip install -r requirements.txt
   result = model.transcribe(audio_data, fp16=False, language="es", task="transcribe")
   ```
 
-- The default trigger phrase is "Hey Jarvis". You can change it by modifying the `TRIGGER_PHRASE` variable in the script.
+- **Trigger Phrase Settings**: The script now recognizes multiple variations of the trigger phrase. You can modify or add more variations by editing the `TRIGGER_VARIATIONS` list in the script:
+  ```python
+  TRIGGER_VARIATIONS = ["hey jarvis", "ei jarvis", "hey service", "hey travis", "a jarvis", "hey jarbas", "hey davis"]
+  ```
 
 - Each recording segment is 3 seconds. You can adjust this by changing the `RECORD_SECONDS` variable.
 
@@ -74,6 +77,7 @@ pip install -r requirements.txt
 
 - The script uses the Whisper "large" model for improved accuracy.
 - The trigger detection is language-agnostic to better recognize "Hey Jarvis" regardless of accent.
+- The improved trigger detection can recognize various pronunciations and partial matches.
 - After trigger detection, the script is configured to transcribe in Portuguese, but can be modified for other languages.
 - The script adds a space after each transcription segment.
 - For better performance, ensure you're in a quiet environment with clear speech. 
