@@ -121,7 +121,65 @@ class TranscriberThread(threading.Thread):
         
         # Inicializar variáveis
         self.TRIGGER_PHRASE = "hey jarvis"
-        self.TRIGGER_VARIATIONS = ["hey jarvis", "ei jarvis", "hey service", "hey travis", "a jarvis", "hey jarbas", "hey davis"]
+        # Lista expandida de variações do trigger para melhorar a detecção
+        self.TRIGGER_VARIATIONS = [
+            # Variações padrão
+            "hey jarvis", 
+            "ei jarvis",
+            "hey jarbas",
+            "hey davis",
+            "hey travis",
+            "hey service",
+            
+            # Novas variações com "rei" como primeira palavra
+            "rei jarvis",
+            "rei jarbas", 
+            "rei service",
+            "rei servis",
+            "rei travis",
+            "rei travess",
+            "rei davis",
+            
+            # Mais variações com "hey"
+            "hey servis",
+            "hey travess",
+            "hey jarves",
+            "hey jarvi",
+            "hey jarviz",
+            
+            # Variações com "ei"
+            "ei service",
+            "ei servis",
+            "ei travis",
+            "ei travess",
+            "ei davis",
+            "ei jarbas",
+            "ei jarves",
+            
+            # Variações sem espaço
+            "heyjarvis",
+            "eijarvis",
+            "reijarvis",
+            
+            # Variações com apenas a segunda palavra
+            "jarvis",
+            "jarbas",
+            "travis",
+            "service",
+            "servis",
+            "travess",
+            "davis",
+            
+            # Variações com erros comuns de reconhecimento
+            "a jarvis",
+            "a service",
+            "a travis",
+            "de jarvis",
+            "the jarvis",
+            "ok jarvis",
+            "ok service",
+            "oi jarvis"
+        ]
         self.input_lock = threading.Lock()
         self.INPUT_COOLDOWN = 2.0
         self.last_input_time = 0
@@ -310,7 +368,7 @@ class TranscriberThread(threading.Thread):
                         with self.input_lock:
                             cooldown_active = (time.time() - self.last_input_time) < self.INPUT_COOLDOWN
                         
-                        # Verificar trigger phrase com detecção melhorada
+                        # Check for trigger phrase with improved detection
                         trigger_detected = False
                         detected_phrase = ""
                         
@@ -321,12 +379,44 @@ class TranscriberThread(threading.Thread):
                                 detected_phrase = phrase
                                 break
                         
-                        # Se não encontrar match exato, tentar detecção aproximada
+                        # Se não encontrar match exato, tentar detecção aproximada melhorada
                         if not trigger_detected:
-                            # Verificar se pelo menos a parte "jarvis" foi detectada
-                            if "jarvis" in transcription or "travis" in transcription or "jarbas" in transcription or "davis" in transcription:
-                                trigger_detected = True
-                                detected_phrase = "palavra similar a jarvis"
+                            # Procurar por partes das variações mais comuns
+                            trigger_parts_first = ["hey", "ei", "rei", "a", "the", "ok", "oi", "de"]
+                            trigger_parts_second = ["jarvis", "jarbas", "service", "travis", "travess", "servis", "davis"]
+                            
+                            # Verificar combinações parciais
+                            for first in trigger_parts_first:
+                                if first in transcription:
+                                    for second in trigger_parts_second:
+                                        # Verifica se as duas partes estão próximas uma da outra na transcrição
+                                        if second in transcription:
+                                            first_pos = transcription.find(first)
+                                            second_pos = transcription.find(second)
+                                            
+                                            # Se as palavras estiverem a menos de 15 caracteres de distância, considerar um match
+                                            if abs(first_pos - second_pos) < 15:
+                                                trigger_detected = True
+                                                detected_phrase = f"{first}...{second} (próximos)"
+                                                break
+                                    
+                                    if trigger_detected:
+                                        break
+                            
+                            # Mesmo se a primeira parte não for identificada, verificar as segundas partes
+                            if not trigger_detected:
+                                for second in trigger_parts_second:
+                                    # Checar se a segunda parte está em posição inicial (primeiras palavras)
+                                    if second in transcription[:25]:  # Verificar apenas o início da frase
+                                        trigger_detected = True
+                                        detected_phrase = f"{second} (início da frase)"
+                                        break
+                                    # Ou verificar se parece muito um comando de ativação
+                                    elif transcription.startswith("ok") or transcription.startswith("ei") or transcription.startswith("hey"):
+                                        if second in transcription:
+                                            trigger_detected = True
+                                            detected_phrase = f"comando de ativação com {second}"
+                                            break
                         
                         # Registrar tentativa de detecção
                         # Só registra quando estamos tentando detectar o trigger (não no modo de transcrição)

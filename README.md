@@ -73,7 +73,11 @@ The `pythonw` command runs the script without showing a terminal window.
 
 3. Focus on the window where you want the text to appear.
 
-4. Say the trigger phrase "Hey Jarvis" to activate transcription mode. The script can recognize variations like "Ei Jarvis" or even detect just the word "Jarvis".
+4. Say the trigger phrase "Hey Jarvis" to activate transcription mode. The script can now recognize many variations and misinterpretations of this phrase, including:
+   - Different first words: "Hey", "Ei", "Rei", etc.
+   - Different second words: "Jarvis", "Service", "Travis", "Travess", "Servis", etc.
+   - Combinations without spaces: "Heyjarvis", "Eijarvis"
+   - Partial recognition where only part of the phrase is detected
 
 5. The script will type "Sim?" to acknowledge it heard you.
 
@@ -110,6 +114,17 @@ The script logs detection attempts only when it's waiting for the trigger phrase
 - It logs whether the trigger was successfully recognized or missed
 - All logs are stored in `whisper_detection_log.txt` with timestamps and shown in the GUI
 - This helps identify common misinterpretations for future improvement
+
+## Advanced Trigger Detection
+
+The system uses a sophisticated multi-layered approach to detect the trigger phrase:
+
+1. **Exact Match Detection**: Checks for an exact match from over 40 different variations of "Hey Jarvis"
+2. **Proximity Detection**: Checks if parts of the trigger (like "hey" and "jarvis") are close to each other in the transcription
+3. **Partial Detection**: Checks if important parts of the trigger (like "jarvis", "service", etc.) appear at the beginning of the transcription
+4. **Context Detection**: Looks for patterns that resemble activation commands, such as phrases starting with "ok", "hey", etc.
+
+This approach dramatically improves detection reliability, especially when Whisper misinterprets parts of the trigger phrase.
 
 ## Customization
 
