@@ -16,19 +16,26 @@ This script uses OpenAI's Whisper model to transcribe speech from your microphon
 
 ## Installation
 
-1. Install the required dependencies:
+1. The easiest way to set everything up is to run the setup script:
 
 ```bash
-pip install -r requirements.txt
+python setup.py
 ```
 
-2. Create the desktop shortcut:
+This will:
+- Install all required dependencies
+- Create the application icon
+- Create a desktop shortcut
+
+2. Alternatively, you can install the components individually:
 
 ```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Create desktop shortcut
 python create_desktop_shortcut.py
 ```
-
-This will create a microphone icon and a shortcut on your desktop that you can use to start the application.
 
 ## Usage
 
@@ -38,13 +45,25 @@ This will create a microphone icon and a shortcut on your desktop that you can u
 
 2. The application window will open, showing the status and a log of detection attempts.
 
+### Pinning to Taskbar
+
+To pin the application to your taskbar for easy access:
+
+1. Start the application once using the desktop shortcut
+2. Right-click on the application icon in the taskbar
+3. Select "Pin to taskbar"
+
+Now you can launch the application directly from your taskbar.
+
 ### Starting from Command Line
 
 If you prefer to start from the command line, you can run:
 
 ```bash
-python gui_transcriber.py
+pythonw gui_transcriber.py
 ```
+
+The `pythonw` command runs the script without showing a terminal window.
 
 ### Using the Transcription Tool
 
@@ -73,15 +92,15 @@ python gui_transcriber.py
 
 ## Graphical User Interface
 
-The application now has a graphical user interface that shows:
+The application has an improved graphical user interface that shows:
 
 1. **Status Display**: Shows the current status of the transcription system (e.g., "Waiting for trigger", "Transcribing").
 
 2. **Log Window**: Displays all detection attempts and transcription activities in real-time.
 
-3. **Stop Button**: Allows you to stop the transcription process.
+3. **Stop Button**: A large, easy-to-click button that allows you to stop the transcription process.
 
-The GUI helps you monitor what the system is detecting and transcribing, making it easier to diagnose any issues with trigger phrase detection.
+The window can be resized as needed, and no terminal window appears when launching from the shortcut.
 
 ## Trigger Detection Logging
 
@@ -107,6 +126,8 @@ The script logs detection attempts only when it's waiting for the trigger phrase
   ```
 
 - **Trigger Phrase Settings**: The script recognizes multiple variations of the trigger phrase. You can modify or add more variations by editing the `TRIGGER_VARIATIONS` list in the script.
+
+- **Window Size**: The default window size is 600x400 pixels, but you can resize it as needed or modify the default size in the `gui_transcriber.py` file.
 
 - Each recording segment is 3 seconds. You can adjust this by changing the `RECORD_SECONDS` variable.
 

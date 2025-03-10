@@ -18,8 +18,8 @@ class TranscriberGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Real-Time Transcriber")
-        self.root.geometry("400x300")
-        self.root.resizable(False, False)
+        self.root.geometry("600x400")
+        self.root.resizable(True, True)
         
         # Definir ícone
         try:
@@ -28,35 +28,40 @@ class TranscriberGUI:
             pass  # Se o ícone não existir, ignore
         
         # Frame principal
-        main_frame = tk.Frame(root, padx=10, pady=10)
+        main_frame = tk.Frame(root, padx=20, pady=20)
         main_frame.pack(fill=tk.BOTH, expand=True)
         
         # Status label
         self.status_var = tk.StringVar()
         self.status_var.set("Carregando modelo Whisper...")
-        self.status_label = tk.Label(main_frame, textvariable=self.status_var, font=("Arial", 12))
+        self.status_label = tk.Label(main_frame, textvariable=self.status_var, font=("Arial", 14))
         self.status_label.pack(pady=10)
         
         # Área de log
         log_frame = tk.Frame(main_frame)
         log_frame.pack(fill=tk.BOTH, expand=True, pady=10)
         
-        log_label = tk.Label(log_frame, text="Log de detecção:", font=("Arial", 10))
+        log_label = tk.Label(log_frame, text="Log de detecção:", font=("Arial", 12))
         log_label.pack(anchor=tk.W)
         
         # Área de texto com scrollbar
         scrollbar = tk.Scrollbar(log_frame)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         
-        self.log_text = tk.Text(log_frame, height=10, width=40, yscrollcommand=scrollbar.set)
+        self.log_text = tk.Text(log_frame, height=12, width=60, yscrollcommand=scrollbar.set, font=("Consolas", 10))
         self.log_text.pack(fill=tk.BOTH, expand=True)
         self.log_text.config(state=tk.DISABLED)
         
         scrollbar.config(command=self.log_text.yview)
         
         # Botão de parar
-        self.stop_button = tk.Button(main_frame, text="Parar", command=self.stop_transcription)
-        self.stop_button.pack(pady=10)
+        button_frame = tk.Frame(main_frame)
+        button_frame.pack(pady=15)
+        
+        self.stop_button = tk.Button(button_frame, text="Parar", command=self.stop_transcription,
+                               font=("Arial", 12, "bold"), bg="#ff5252", fg="white",
+                               width=15, height=2)
+        self.stop_button.pack()
         
         # Inicializar variáveis
         self.transcriber = None
