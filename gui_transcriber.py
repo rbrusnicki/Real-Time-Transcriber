@@ -12,6 +12,14 @@ import keyboard
 from pynput.keyboard import Controller, Listener as KeyboardListener, Key
 from pynput.mouse import Listener as MouseListener
 import datetime
+import ctypes
+
+# Para corrigir o ícone na barra de tarefas no Windows
+myappid = 'whisper.realtime.transcriber.1.0'  # ID arbitrário, pode ser qualquer string
+try:
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+except:
+    pass  # Ignora erros em outros sistemas operacionais
 
 # Interface gráfica
 class TranscriberGUI:
@@ -21,11 +29,13 @@ class TranscriberGUI:
         self.root.geometry("600x400")
         self.root.resizable(True, True)
         
-        # Definir ícone
-        try:
-            self.root.iconbitmap("microphone.ico")  # Será criado mais tarde
-        except:
-            pass  # Se o ícone não existir, ignore
+        # Definir ícone - agora com caminho absoluto e tratamento de erro aprimorado
+        icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "microphone.ico")
+        if os.path.exists(icon_path):
+            try:
+                self.root.iconbitmap(icon_path)
+            except Exception as e:
+                print(f"Erro ao definir ícone: {e}")
         
         # Frame principal
         main_frame = tk.Frame(root, padx=20, pady=20)

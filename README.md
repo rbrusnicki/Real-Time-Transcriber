@@ -55,6 +55,8 @@ To pin the application to your taskbar for easy access:
 
 Now you can launch the application directly from your taskbar.
 
+> **Note About Taskbar Icon:** If the icon in the taskbar appears as a generic Python icon instead of the microphone icon, try using the "Real-Time Transcriber (Alt)" shortcut instead. This alternative shortcut uses a different method that may work better with Windows taskbar.
+
 ### Starting from Command Line
 
 If you prefer to start from the command line, you can run:
