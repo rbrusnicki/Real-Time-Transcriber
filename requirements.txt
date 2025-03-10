@@ -4,4 +4,8 @@ keyboard==0.13.5
 pynput==1.7.6
 pystray==0.19.4
 Pillow>=9.0.0
+tk
+pywin32
+pypiwin32
+winshell
 # Note: openai-whisper is already installed
