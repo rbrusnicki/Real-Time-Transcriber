@@ -125,7 +125,8 @@ class TranscriberThread(threading.Thread):
         # Refatoração das variações do trigger usando listas separadas
         # Lista de possíveis primeiras palavras
         self.FIRST_WORDS = [
-            "hey", 
+            "hey",
+            "hej", 
             "ei", 
             "rei",
             "a",
@@ -147,7 +148,8 @@ class TranscriberThread(threading.Thread):
             "davis",
             "jarves",
             "jarvi",
-            "jarviz"
+            "jarviz",
+            "charvis",
         ]
         
         # Lista de frases a serem filtradas do log (não serão registradas)
