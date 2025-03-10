@@ -24,18 +24,6 @@ def get_python_executable():
     except:
         pass
     
-    # Tente caminhos comuns
-    common_paths = [
-        "C:\\Python310\\pythonw.exe",
-        "C:\\Python39\\pythonw.exe",
-        os.path.join(os.environ.get('LOCALAPPDATA', ''), "Programs", "Python", "Python310", "pythonw.exe"),
-        os.path.join(os.environ.get('LOCALAPPDATA', ''), "Programs", "Python", "Python39", "pythonw.exe")
-    ]
-    
-    for path in common_paths:
-        if os.path.exists(path):
-            return path
-    
     return None
 
 def create_desktop_shortcut():
@@ -43,8 +31,6 @@ def create_desktop_shortcut():
     # Get paths
     script_dir = os.path.dirname(os.path.abspath(__file__))
     bat_path = os.path.join(script_dir, "start_transcriber.bat")
-    cmd_path = os.path.join(script_dir, "start_transcriber.cmd")
-    alt_bat_path = os.path.join(script_dir, "start_alt.bat")
     icon_path = os.path.join(script_dir, "microphone.ico")
     script_path = os.path.join(script_dir, "gui_transcriber.py")
     
@@ -71,59 +57,7 @@ def create_desktop_shortcut():
         print("Warning: Could not set AppUserModelID for taskbar icon.")
     
     shortcut.save()
-    
-    # Criar atalho alternativo usando o arquivo .bat alternativo
-    alt_shortcut_path = os.path.join(desktop, "Real-Time Transcriber (Alt 1).lnk")
-    alt_shortcut = shell.CreateShortCut(alt_shortcut_path)
-    alt_shortcut.Targetpath = alt_bat_path
-    alt_shortcut.WorkingDirectory = script_dir
-    alt_shortcut.IconLocation = icon_path
-    alt_shortcut.Description = "Real-Time Speech Transcription using Whisper (Alternative 1)"
-    
-    # Tentar definir o AppUserModelID também para o atalho alternativo
-    try:
-        alt_shortcut.SetProperty('{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3}', 5, 'whisper.realtime.transcriber.1.0')
-    except:
-        pass
-        
-    alt_shortcut.save()
-    print(f"Created alternative shortcut 1 at: {alt_shortcut_path}")
-    
-    # Criar atalho alternativo usando o arquivo .cmd
-    alt_shortcut_path2 = os.path.join(desktop, "Real-Time Transcriber (Alt 2).lnk")
-    alt_shortcut2 = shell.CreateShortCut(alt_shortcut_path2)
-    alt_shortcut2.Targetpath = cmd_path
-    alt_shortcut2.WorkingDirectory = script_dir
-    alt_shortcut2.IconLocation = icon_path
-    alt_shortcut2.Description = "Real-Time Speech Transcription using Whisper (Alternative 2)"
-    
-    # Tentar definir o AppUserModelID também para o atalho alternativo
-    try:
-        alt_shortcut2.SetProperty('{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3}', 5, 'whisper.realtime.transcriber.1.0')
-    except:
-        pass
-        
-    alt_shortcut2.save()
-    print(f"Created alternative shortcut 2 at: {alt_shortcut_path2}")
-    
-    # Se encontramos o pythonw.exe, criar atalho direto para o script Python
-    if pythonw_path:
-        direct_shortcut_path = os.path.join(desktop, "Real-Time Transcriber (Direct).lnk")
-        direct_shortcut = shell.CreateShortCut(direct_shortcut_path)
-        direct_shortcut.Targetpath = pythonw_path
-        direct_shortcut.Arguments = f'"{script_path}"'
-        direct_shortcut.WorkingDirectory = script_dir
-        direct_shortcut.IconLocation = icon_path
-        direct_shortcut.Description = "Real-Time Speech Transcription using Whisper (Direct Python)"
-        
-        # Tentar definir o AppUserModelID
-        try:
-            direct_shortcut.SetProperty('{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3}', 5, 'whisper.realtime.transcriber.1.0')
-        except:
-            pass
-            
-        direct_shortcut.save()
-        print(f"Created direct pythonw shortcut at: {direct_shortcut_path}")
+    print(f"Created shortcut at: {shortcut_path}")
     
     # Criar outro atalho para colocar na barra de tarefas
     # No Windows, os atalhos para a barra de tarefas são normalmente armazenados em:
@@ -169,8 +103,6 @@ def create_desktop_shortcut():
     print("1. Execute o atalho da área de trabalho uma vez")
     print("2. Clique com o botão direito no ícone da barra de tarefas")
     print("3. Selecione 'Fixar na barra de tarefas'\n")
-    
-    print("\nSe um atalho não funcionar, tente outro dos atalhos alternativos criados.")
     
     return shortcut_path
 

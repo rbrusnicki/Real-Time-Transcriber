@@ -45,27 +45,15 @@ python create_desktop_shortcut.py
 
 2. The application window will open, showing the status and a log of detection attempts.
 
-### Alternative Shortcuts
-
-If the main shortcut doesn't work or you have issues with the icon in the taskbar, several alternative shortcuts are created for you:
-
-- **Real-Time Transcriber (Alt 1)** - Uses a simplified .bat file
-- **Real-Time Transcriber (Alt 2)** - Uses a .cmd file that tries to find Python in multiple locations
-- **Real-Time Transcriber (Direct)** - Calls pythonw.exe directly with the script as an argument
-
-Try each of these alternatives if you encounter problems with the main shortcut.
-
 ### Pinning to Taskbar
 
 To pin the application to your taskbar for easy access:
 
-1. Start the application once using one of the desktop shortcuts
+1. Start the application once using the desktop shortcut
 2. Right-click on the application icon in the taskbar
 3. Select "Pin to taskbar"
 
 Now you can launch the application directly from your taskbar.
-
-> **Note About Taskbar Icon:** If the icon in the taskbar appears as a generic Python icon instead of the microphone icon, try using one of the alternative shortcuts instead. These shortcuts use different methods that may work better with the Windows taskbar.
 
 ### Starting from Command Line
 
@@ -144,24 +132,6 @@ The script logs detection attempts only when it's waiting for the trigger phrase
 - Each recording segment is 3 seconds. You can adjust this by changing the `RECORD_SECONDS` variable.
 
 - The cooldown period after keyboard/mouse activity is 2 seconds. You can adjust this by changing the `INPUT_COOLDOWN` variable.
-
-## Troubleshooting
-
-### Shortcut Issues
-
-If you're having trouble with the shortcuts:
-
-1. Try running the script directly from the command line:
-   ```
-   pythonw gui_transcriber.py
-   ```
-
-2. If the shortcuts ask how to open the file, make sure:
-   - Python is installed correctly
-   - The file associations for .bat and .cmd files are set to command processor
-   - The Python installation directory is in your PATH environment variable
-
-3. Try each of the alternative shortcuts to see which works best on your system.
 
 ## Notes
 
