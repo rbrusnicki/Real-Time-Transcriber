@@ -150,6 +150,24 @@ class TranscriberThread(threading.Thread):
             "jarviz"
         ]
         
+        # Lista de frases a serem filtradas do log (não serão registradas)
+        # Útil para evitar logs de períodos de silêncio ou ruído de fundo
+        self.IGNORE_PHRASES = [
+            "thank you",
+            "thank you for watching",
+            "thanks for watching",
+            "please subscribe",
+            "like and subscribe",
+            "thank you for listening",
+            "thanks for listening",
+            "please like",
+            "thank you very much",
+            "thanks",
+            "",  # String vazia (silêncio completo)
+            " ",  # Espaço em branco
+            "..."  # Reticências
+        ]
+        
         # Gerar todas as combinações possíveis
         self.TRIGGER_VARIATIONS = []
         
@@ -245,6 +263,17 @@ class TranscriberThread(threading.Thread):
     
     def log_detection_attempt(self, transcription, trigger_detected=False, detected_phrase=""):
         """Registra tentativas de detecção."""
+        # Verificar se a transcrição está na lista de frases a serem ignoradas
+        if any(ignore_phrase in transcription.lower() for ignore_phrase in self.IGNORE_PHRASES):
+            # Não registrar no log, apenas mostrar um pequeno indicador no console
+            print(".", end="", flush=True)  # Mostra um ponto para indicar atividade
+            return  # Retorna sem registrar
+        
+        # Verificar também se é apenas noise/ruído de fundo (menos de 3 caracteres)
+        if len(transcription.strip()) < 3 and not trigger_detected:
+            print(".", end="", flush=True)  # Mostra um ponto para indicar atividade
+            return  # Retorna sem registrar
+            
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         log_entry = f"[{timestamp}] "
         if trigger_detected:

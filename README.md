@@ -115,6 +115,16 @@ The script logs detection attempts only when it's waiting for the trigger phrase
 - All logs are stored in `whisper_detection_log.txt` with timestamps and shown in the GUI
 - This helps identify common misinterpretations for future improvement
 
+### Log Filtering
+
+To keep logs clean and focused, the system automatically filters out:
+
+- Common phrases detected during silence (e.g., "thank you", "thank you for watching")
+- Very short transcriptions (less than 3 characters) that are likely just background noise
+- Empty transcriptions or white space
+
+These filtered transcriptions are not logged to the file or displayed in the GUI, but small dots (".") are printed to the console to indicate that activity is still being monitored.
+
 ## Advanced Trigger Detection
 
 The system uses a sophisticated multi-layered approach to detect the trigger phrase:
