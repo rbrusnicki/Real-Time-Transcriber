@@ -2,6 +2,7 @@ import os
 import sys
 import subprocess
 import importlib.util
+import platform
 
 def check_module(module_name):
     """Check if a Python module is installed"""
@@ -24,16 +25,28 @@ def create_icon():
     """Create the application icon"""
     print("Creating application icon...")
     
-    if not os.path.exists("microphone.ico"):
-        try:
-            import create_icon
-            icon_path = create_icon.create_microphone_icon()
-            print(f"Icon created at: {icon_path}")
-        except Exception as e:
-            print(f"Error creating icon: {e}")
-            return False
-    else:
-        print("Icon already exists.")
+    if platform.system() == "Windows":
+        if not os.path.exists("microphone.ico"):
+            try:
+                import create_icon
+                icon_path = create_icon.create_microphone_icon()
+                print(f"Icon created at: {icon_path}")
+            except Exception as e:
+                print(f"Error creating icon: {e}")
+                return False
+        else:
+            print("Icon already exists.")
+    else:  # Linux
+        if not os.path.exists("microphone.png"):
+            try:
+                import create_icon_linux
+                ico_path, png_path = create_icon_linux.create_microphone_icon()
+                print(f"Icons created at: {ico_path} and {png_path}")
+            except Exception as e:
+                print(f"Error creating icon: {e}")
+                return False
+        else:
+            print("Icon already exists.")
     
     return True
 
@@ -42,8 +55,13 @@ def create_shortcut():
     print("Creating desktop shortcut...")
     
     try:
-        import create_desktop_shortcut
-        shortcut_path = create_desktop_shortcut.create_desktop_shortcut()
+        if platform.system() == "Windows":
+            import create_desktop_shortcut
+            shortcut_path = create_desktop_shortcut.create_desktop_shortcut()
+        else:  # Linux
+            import create_desktop_shortcut_linux
+            shortcut_path = create_desktop_shortcut_linux.create_desktop_shortcut()
+            
         print(f"Shortcut created at: {shortcut_path}")
         return True
     except Exception as e:

@@ -1,11 +1,9 @@
-pyaudio==0.2.13
-numpy>=1.23.0
-keyboard==0.13.5
-pynput==1.7.6
-pystray==0.19.4
-Pillow>=9.0.0
-tk
-pywin32
-pypiwin32
-winshell
-# Note: openai-whisper is already installed
+numpy
+openai-whisper
+pyaudio
+keyboard
+pynput
+pillow
+# Windows-specific dependencies (will be skipped on Linux)
+pywin32; platform_system == "Windows"
+winshell; platform_system == "Windows"

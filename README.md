@@ -1,187 +1,124 @@
 # Real-Time Speech Transcription
 
-This script uses OpenAI's Whisper model to transcribe speech from your microphone in real-time and type it into any window you choose. The script uses a two-step approach: language-agnostic detection for the trigger phrase, followed by Portuguese language transcription.
+This script uses OpenAI's Whisper model to transcribe speech from your microphone in real-time and type it into any window you choose. The application supports multiple languages and provides visual feedback during transcription.
+
+## Features
+
+- Real-time speech transcription using OpenAI's Whisper model
+- Multi-language support with interface localization
+- Visual feedback during active transcription
+- Optional detection logging
+- Cross-platform support (Windows and Linux)
+- Automatic language detection option
 
 ## Requirements
 
 - Python 3.7+
-- OpenAI Whisper (already installed)
+- OpenAI Whisper
 - PyAudio
 - NumPy
-- Keyboard
 - Pynput
 - Pillow (for icon creation)
 - Tkinter (for GUI)
-- Pywin32 and Winshell (for desktop shortcut creation)
+
+### Platform-specific Requirements
+- Windows: Pywin32 and Winshell (for desktop shortcut creation)
+- Linux: portaudio19-dev (for PyAudio)
 
 ## Installation
 
-1. The easiest way to set everything up is to run the setup script:
+### Windows Installation
 
+1. Run the setup script:
 ```bash
 python setup.py
 ```
 
-This will:
-- Install all required dependencies
-- Create the application icon
-- Create a desktop shortcut
+### Ubuntu/Linux Installation
 
-2. Alternatively, you can install the components individually:
-
+1. Install system dependencies:
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+sudo apt-get update
+sudo apt-get install -y portaudio19-dev python3-dev python3-tk
+```
 
-# Create desktop shortcut
-python create_desktop_shortcut.py
+2. Run the setup script:
+```bash
+python3 setup.py
 ```
 
 ## Usage
 
-### Starting with Desktop Shortcut
+### Interface Features
 
-1. Double-click the "Real-Time Transcriber" shortcut on your desktop.
+1. **Language Selection**:
+   - Choose from multiple supported languages including:
+     - English
+     - Portuguese
+     - Chinese
+     - German
+     - Spanish
+     - French
+     - Italian
+     - Japanese
+     - Korean
+     - Russian
+   - Auto-detect option available
+   - Interface language updates automatically with selection
 
-2. The application window will open, showing the status and a log of detection attempts.
+2. **Detection Logging**:
+   - Toggle logging on/off using the checkbox
+   - When enabled, shows all detection attempts and transcriptions
+   - Logs are saved to `whisper_detection_log.txt`
 
-### Pinning to Taskbar
+3. **Visual Feedback**:
+   - Interface changes color during active transcription
+   - Returns to normal color when transcription is paused/stopped
 
-To pin the application to your taskbar for easy access:
+4. **Status Display**:
+   - Shows current status and model loading progress
+   - Displays first-time download information
+   - Indicates when ready for trigger phrase
 
-1. Start the application once using the desktop shortcut
-2. Right-click on the application icon in the taskbar
-3. Select "Pin to taskbar"
+### Basic Operation
 
-Now you can launch the application directly from your taskbar.
+1. Start the application using the desktop shortcut or command line
+2. Select your preferred transcription language
+3. Enable/disable logging as needed
+4. Say "Hey Jarvis" to activate transcription
+5. Speak your text to be transcribed
+6. Uses any mouse/keyboard input to stop current transcription
 
-### Starting from Command Line
+### Stopping Transcription Program
 
-If you prefer to start from the command line, you can run:
-
-```bash
-pythonw gui_transcriber.py
-```
-
-The `pythonw` command runs the script without showing a terminal window.
-
-### Using the Transcription Tool
-
-1. When the application starts, it will load the Whisper model (this may take a moment).
-
-2. Once loaded, the application will show "Aguardando comando 'Hey Jarvis'" (Waiting for 'Hey Jarvis' command).
-
-3. Focus on the window where you want the text to appear.
-
-4. Say the trigger phrase "Hey Jarvis" to activate transcription mode. The script can now recognize many variations and misinterpretations of this phrase, including:
-   - Different first words: "Hey", "Ei", "Rei", etc.
-   - Different second words: "Jarvis", "Service", "Travis", "Travess", "Servis", etc.
-   - Combinations without spaces: "Heyjarvis", "Eijarvis"
-   - Partial recognition where only part of the phrase is detected
-
-5. The script will type "Sim?" to acknowledge it heard you.
-
-6. Start speaking in Portuguese, and the script will:
-   - Erase the "Sim?" acknowledgment
-   - Type your transcribed speech in its place
-
-7. **The transcription will automatically pause when you use your keyboard or mouse.** This prevents interference with your manual typing.
-
-8. To resume transcription after using keyboard/mouse, say the trigger phrase "Hey Jarvis" again.
-
-9. You can stop the transcription by:
-   - Clicking the "Parar" (Stop) button in the application window
-   - Pressing the `Esc` key
-   - Closing the application window
-
-## Graphical User Interface
-
-The application has an improved graphical user interface that shows:
-
-1. **Status Display**: Shows the current status of the transcription system (e.g., "Waiting for trigger", "Transcribing").
-
-2. **Log Window**: Displays all detection attempts and transcription activities in real-time.
-
-3. **Stop Button**: A large, easy-to-click button that allows you to stop the transcription process.
-
-The window can be resized as needed, and no terminal window appears when launching from the shortcut.
-
-## Trigger Detection Logging
-
-The script logs detection attempts only when it's waiting for the trigger phrase (not during active transcription). Every time you speak:
-
-- The script records what was actually detected by Whisper
-- It logs whether the trigger was successfully recognized or missed
-- All logs are stored in `whisper_detection_log.txt` with timestamps and shown in the GUI
-- This helps identify common misinterpretations for future improvement
-
-### Log Filtering
-
-To keep logs clean and focused, the system automatically filters out:
-
-- Common phrases detected during silence (e.g., "thank you", "thank you for watching")
-- Very short transcriptions (less than 3 characters) that are likely just background noise
-- Empty transcriptions or white space
-
-These filtered transcriptions are not logged to the file or displayed in the GUI, but small dots (".") are printed to the console to indicate that activity is still being monitored.
-
-**Note:** This filtering only applies during trigger detection mode (when waiting for "Hey Jarvis"). During active transcription, all phrases are preserved exactly as detected, including phrases like "thank you".
-
-## Advanced Trigger Detection
-
-The system uses a sophisticated multi-layered approach to detect the trigger phrase:
-
-1. **Modular Word Lists**: The system uses separate lists for first and second words:
-   - First words list: "hey", "ei", "rei", "a", "the", "ok", etc.
-   - Second words list: "jarvis", "service", "travis", "travess", etc.
-   - Combinations are generated automatically (over 100 variations)
-
-2. **Exact Match Detection**: Checks for an exact match against any of the generated combinations
-
-3. **Proximity Detection**: If no exact match is found, checks if any first word and any second word appear close to each other in the transcription
-
-4. **Partial Detection**: Even if the first word is missing, checks if any second word appears at the beginning of the transcription
-
-5. **Context Detection**: Analyzes if the transcription starts with any known activation word followed by any second word
-
-This approach dramatically improves detection reliability, especially when Whisper misinterprets parts of the trigger phrase. The modular design also makes it easy to add new variations by simply adding words to either list.
-
-## Customization
-
-- **Language Settings**: The script is currently configured to transcribe in Portuguese, but you can change it to any language by modifying the `language` parameter in the `model.transcribe()` function in the `process_audio()` method. For example:
-  ```python
-  # For English:
-  result = self.model.transcribe(audio_data, fp16=False, language="en", task="transcribe")
-
-  # For German:
-  result = self.model.transcribe(audio_data, fp16=False, language="de", task="transcribe")
-
-  # For Italian:
-  result = self.model.transcribe(audio_data, fp16=False, language="it", task="transcribe")
-  ```
-
-- **Trigger Phrase Settings**: You can easily customize the trigger phrase recognition by modifying the `FIRST_WORDS` and `SECOND_WORDS` lists in the script. For example:
-  ```python
-  # Add new first words
-  self.FIRST_WORDS.append("hello")  # Adds "hello" as a possible first word
-  
-  # Add new second words
-  self.SECOND_WORDS.append("computer")  # Adds "computer" as a possible second word
-  ```
-  The system will automatically generate all possible combinations.
-
-- **Window Size**: The default window size is 600x400 pixels, but you can resize it as needed or modify the default size in the `gui_transcriber.py` file.
-
-- Each recording segment is 3 seconds. You can adjust this by changing the `RECORD_SECONDS` variable.
-
-- The cooldown period after keyboard/mouse activity is 2 seconds. You can adjust this by changing the `INPUT_COOLDOWN` variable.
+You can stop the transcription program by:
+- Clicking the Stop button
+- Closing the application window
 
 ## Notes
 
-- The script uses the Whisper "large" model for improved accuracy.
-- The trigger detection is language-agnostic to better recognize "Hey Jarvis" regardless of accent.
-- The improved trigger detection can recognize various pronunciations and partial matches.
-- All detection attempts are logged only during trigger detection (not during active transcription).
-- After trigger detection, the script is configured to transcribe in Portuguese, but can be modified for other languages.
-- The script adds a space after each transcription segment.
-- For better performance, ensure you're in a quiet environment with clear speech. 
+- First-time startup will download the Whisper model large (about 2.9GB)
+- The trigger detection is language-agnostic for better recognition
+- Transcription automatically pauses when keyboard/mouse is used
+- Interface language changes affect all text elements including acknowledgments
+- Log toggle affects only detection logging, not status messages
+
+## Troubleshooting
+
+### Ubuntu/Linux Issues
+
+1. **PyAudio Installation**:
+   ```bash
+   sudo apt-get install -y portaudio19-dev python3-dev
+   pip3 install pyaudio
+   ```
+
+2. **Desktop Shortcut**:
+   ```bash
+   chmod +x ~/Desktop/real-time-transcriber.desktop
+   ```
+
+### Windows Issues
+
+1. **Icon Not Showing**: Try running as administrator once
+2. **Desktop Shortcut**: Verify all paths in the shortcut are correct 
