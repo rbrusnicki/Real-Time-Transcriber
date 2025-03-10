@@ -119,12 +119,20 @@ The script logs detection attempts only when it's waiting for the trigger phrase
 
 The system uses a sophisticated multi-layered approach to detect the trigger phrase:
 
-1. **Exact Match Detection**: Checks for an exact match from over 40 different variations of "Hey Jarvis"
-2. **Proximity Detection**: Checks if parts of the trigger (like "hey" and "jarvis") are close to each other in the transcription
-3. **Partial Detection**: Checks if important parts of the trigger (like "jarvis", "service", etc.) appear at the beginning of the transcription
-4. **Context Detection**: Looks for patterns that resemble activation commands, such as phrases starting with "ok", "hey", etc.
+1. **Modular Word Lists**: The system uses separate lists for first and second words:
+   - First words list: "hey", "ei", "rei", "a", "the", "ok", etc.
+   - Second words list: "jarvis", "service", "travis", "travess", etc.
+   - Combinations are generated automatically (over 100 variations)
 
-This approach dramatically improves detection reliability, especially when Whisper misinterprets parts of the trigger phrase.
+2. **Exact Match Detection**: Checks for an exact match against any of the generated combinations
+
+3. **Proximity Detection**: If no exact match is found, checks if any first word and any second word appear close to each other in the transcription
+
+4. **Partial Detection**: Even if the first word is missing, checks if any second word appears at the beginning of the transcription
+
+5. **Context Detection**: Analyzes if the transcription starts with any known activation word followed by any second word
+
+This approach dramatically improves detection reliability, especially when Whisper misinterprets parts of the trigger phrase. The modular design also makes it easy to add new variations by simply adding words to either list.
 
 ## Customization
 
@@ -140,7 +148,15 @@ This approach dramatically improves detection reliability, especially when Whisp
   result = self.model.transcribe(audio_data, fp16=False, language="it", task="transcribe")
   ```
 
-- **Trigger Phrase Settings**: The script recognizes multiple variations of the trigger phrase. You can modify or add more variations by editing the `TRIGGER_VARIATIONS` list in the script.
+- **Trigger Phrase Settings**: You can easily customize the trigger phrase recognition by modifying the `FIRST_WORDS` and `SECOND_WORDS` lists in the script. For example:
+  ```python
+  # Add new first words
+  self.FIRST_WORDS.append("hello")  # Adds "hello" as a possible first word
+  
+  # Add new second words
+  self.SECOND_WORDS.append("computer")  # Adds "computer" as a possible second word
+  ```
+  The system will automatically generate all possible combinations.
 
 - **Window Size**: The default window size is 600x400 pixels, but you can resize it as needed or modify the default size in the `gui_transcriber.py` file.
 

@@ -121,65 +121,56 @@ class TranscriberThread(threading.Thread):
         
         # Inicializar variáveis
         self.TRIGGER_PHRASE = "hey jarvis"
-        # Lista expandida de variações do trigger para melhorar a detecção
-        self.TRIGGER_VARIATIONS = [
-            # Variações padrão
-            "hey jarvis", 
-            "ei jarvis",
-            "hey jarbas",
-            "hey davis",
-            "hey travis",
-            "hey service",
-            
-            # Novas variações com "rei" como primeira palavra
-            "rei jarvis",
-            "rei jarbas", 
-            "rei service",
-            "rei servis",
-            "rei travis",
-            "rei travess",
-            "rei davis",
-            
-            # Mais variações com "hey"
-            "hey servis",
-            "hey travess",
-            "hey jarves",
-            "hey jarvi",
-            "hey jarviz",
-            
-            # Variações com "ei"
-            "ei service",
-            "ei servis",
-            "ei travis",
-            "ei travess",
-            "ei davis",
-            "ei jarbas",
-            "ei jarves",
-            
-            # Variações sem espaço
-            "heyjarvis",
-            "eijarvis",
-            "reijarvis",
-            
-            # Variações com apenas a segunda palavra
+        
+        # Refatoração das variações do trigger usando listas separadas
+        # Lista de possíveis primeiras palavras
+        self.FIRST_WORDS = [
+            "hey", 
+            "ei", 
+            "rei",
+            "a",
+            "the",
+            "de",
+            "ok",
+            "oi",
+            ""   # Palavra vazia para permitir só a segunda palavra como trigger
+        ]
+        
+        # Lista de possíveis segundas palavras
+        self.SECOND_WORDS = [
             "jarvis",
             "jarbas",
-            "travis",
             "service",
             "servis",
+            "travis",
             "travess",
             "davis",
-            
-            # Variações com erros comuns de reconhecimento
-            "a jarvis",
-            "a service",
-            "a travis",
-            "de jarvis",
-            "the jarvis",
-            "ok jarvis",
-            "ok service",
-            "oi jarvis"
+            "jarves",
+            "jarvi",
+            "jarviz"
         ]
+        
+        # Gerar todas as combinações possíveis
+        self.TRIGGER_VARIATIONS = []
+        
+        # Adicionar combinações com espaço
+        for first in self.FIRST_WORDS:
+            for second in self.SECOND_WORDS:
+                if first:  # Se a primeira palavra não for vazia
+                    self.TRIGGER_VARIATIONS.append(f"{first} {second}")
+                else:  # Se for vazia, apenas adiciona a segunda palavra
+                    self.TRIGGER_VARIATIONS.append(second)
+        
+        # Adicionar combinações sem espaço para algumas palavras comuns
+        common_prefixes = ["hey", "ei", "rei"]
+        for prefix in common_prefixes:
+            for second in self.SECOND_WORDS:
+                self.TRIGGER_VARIATIONS.append(f"{prefix}{second}")
+        
+        # Imprimir estatísticas sobre as variações para debug
+        self.gui.add_log(f"Carregadas {len(self.TRIGGER_VARIATIONS)} variações do trigger phrase")
+        self.gui.add_log(f"Primeiras palavras: {len(self.FIRST_WORDS)}, Segundas palavras: {len(self.SECOND_WORDS)}")
+        
         self.input_lock = threading.Lock()
         self.INPUT_COOLDOWN = 2.0
         self.last_input_time = 0
@@ -381,14 +372,11 @@ class TranscriberThread(threading.Thread):
                         
                         # Se não encontrar match exato, tentar detecção aproximada melhorada
                         if not trigger_detected:
-                            # Procurar por partes das variações mais comuns
-                            trigger_parts_first = ["hey", "ei", "rei", "a", "the", "ok", "oi", "de"]
-                            trigger_parts_second = ["jarvis", "jarbas", "service", "travis", "travess", "servis", "davis"]
-                            
-                            # Verificar combinações parciais
-                            for first in trigger_parts_first:
-                                if first in transcription:
-                                    for second in trigger_parts_second:
+                            # Usar as listas de palavras que já definimos
+                            # Procurar por combinações parciais
+                            for first in self.FIRST_WORDS:
+                                if first and first in transcription:  # Ignorar a string vazia
+                                    for second in self.SECOND_WORDS:
                                         # Verifica se as duas partes estão próximas uma da outra na transcrição
                                         if second in transcription:
                                             first_pos = transcription.find(first)
@@ -405,14 +393,14 @@ class TranscriberThread(threading.Thread):
                             
                             # Mesmo se a primeira parte não for identificada, verificar as segundas partes
                             if not trigger_detected:
-                                for second in trigger_parts_second:
+                                for second in self.SECOND_WORDS:
                                     # Checar se a segunda parte está em posição inicial (primeiras palavras)
                                     if second in transcription[:25]:  # Verificar apenas o início da frase
                                         trigger_detected = True
                                         detected_phrase = f"{second} (início da frase)"
                                         break
                                     # Ou verificar se parece muito um comando de ativação
-                                    elif transcription.startswith("ok") or transcription.startswith("ei") or transcription.startswith("hey"):
+                                    elif any(transcription.startswith(first) for first in self.FIRST_WORDS if first):
                                         if second in transcription:
                                             trigger_detected = True
                                             detected_phrase = f"comando de ativação com {second}"
