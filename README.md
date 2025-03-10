@@ -125,6 +125,8 @@ To keep logs clean and focused, the system automatically filters out:
 
 These filtered transcriptions are not logged to the file or displayed in the GUI, but small dots (".") are printed to the console to indicate that activity is still being monitored.
 
+**Note:** This filtering only applies during trigger detection mode (when waiting for "Hey Jarvis"). During active transcription, all phrases are preserved exactly as detected, including phrases like "thank you".
+
 ## Advanced Trigger Detection
 
 The system uses a sophisticated multi-layered approach to detect the trigger phrase:

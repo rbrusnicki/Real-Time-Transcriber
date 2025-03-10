@@ -154,15 +154,9 @@ class TranscriberThread(threading.Thread):
         # Útil para evitar logs de períodos de silêncio ou ruído de fundo
         self.IGNORE_PHRASES = [
             "thank you",
-            "thank you for watching",
-            "thanks for watching",
-            "please subscribe",
-            "like and subscribe",
-            "thank you for listening",
-            "thanks for listening",
-            "please like",
-            "thank you very much",
-            "thanks",
+            "thank you.",
+            "thank you for watching!",
+            "thank you for watching.",
             "",  # String vazia (silêncio completo)
             " ",  # Espaço em branco
             "..."  # Reticências
@@ -261,16 +255,16 @@ class TranscriberThread(threading.Thread):
         self.running = False
         self.gui.add_log("Parando transcrição...")
     
-    def log_detection_attempt(self, transcription, trigger_detected=False, detected_phrase=""):
+    def log_detection_attempt(self, transcription, trigger_detected=False, detected_phrase="", is_trigger_detection=True):
         """Registra tentativas de detecção."""
-        # Verificar se a transcrição está na lista de frases a serem ignoradas
-        if any(ignore_phrase in transcription.lower() for ignore_phrase in self.IGNORE_PHRASES):
+        # Verificar se a transcrição está na lista de frases a serem ignoradas - SOMENTE no modo de detecção de gatilho
+        if is_trigger_detection and any(ignore_phrase in transcription.lower() for ignore_phrase in self.IGNORE_PHRASES):
             # Não registrar no log, apenas mostrar um pequeno indicador no console
             print(".", end="", flush=True)  # Mostra um ponto para indicar atividade
             return  # Retorna sem registrar
         
-        # Verificar também se é apenas noise/ruído de fundo (menos de 3 caracteres)
-        if len(transcription.strip()) < 3 and not trigger_detected:
+        # Verificar também se é apenas noise/ruído de fundo (menos de 3 caracteres) - SOMENTE no modo de detecção de gatilho
+        if is_trigger_detection and len(transcription.strip()) < 3 and not trigger_detected:
             print(".", end="", flush=True)  # Mostra um ponto para indicar atividade
             return  # Retorna sem registrar
             
@@ -437,7 +431,7 @@ class TranscriberThread(threading.Thread):
                         
                         # Registrar tentativa de detecção
                         # Só registra quando estamos tentando detectar o trigger (não no modo de transcrição)
-                        self.log_detection_attempt(transcription, trigger_detected, detected_phrase)
+                        self.log_detection_attempt(transcription, trigger_detected, detected_phrase, True)
                         
                         if trigger_detected and not cooldown_active:
                             self.gui.update_status("Trigger detectado! Transcrição ativada.")
@@ -463,16 +457,9 @@ class TranscriberThread(threading.Thread):
                         if transcription and transcription != last_text:
                             self.gui.add_log(f"Transcrito: {transcription}")
                             
-                            # Filtro para frases em inglês indesejadas
-                            unwanted_phrases = ["thank you", "thanks", "thank", "you", "obrigado", "obrigada", "thanks for"]
-                            for phrase in unwanted_phrases:
-                                if phrase in transcription.lower():
-                                    transcription = transcription.lower().replace(phrase, "").strip()
-                                    self.gui.add_log(f"Removida frase indesejada: '{phrase}'")
-                            
-                            # Se a transcrição estiver vazia após filtragem, pular
+                            # Se a transcrição estiver vazia, pular
                             if not transcription.strip():
-                                self.gui.add_log("Transcrição vazia após filtragem, ignorando")
+                                self.gui.add_log("Transcrição vazia, ignorando")
                                 continue
                             
                             # Se digitamos um reconhecimento anteriormente, apagar antes de digitar
