@@ -211,6 +211,7 @@ def process_audio():
                             detected_phrase = "jarvis-like word"
                     
                     # Log every detection attempt to help improve the system
+                    # Only log when we're trying to detect the trigger (not in transcription mode)
                     log_detection_attempt(transcription, trigger_detected, detected_phrase)
                     
                     if trigger_detected and not cooldown_active:

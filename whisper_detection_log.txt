@@ -1,0 +1,1475 @@
+
+--- New session started: 2025-03-08 15:29:53 ---
+[2025-03-08 15:30:01] MISSED: thank you.
+[2025-03-08 15:30:03] MISSED: thank you.
+[2025-03-08 15:30:06] MISSED: thank you.
+[2025-03-08 15:30:09] MISSED: thank you.
+[2025-03-08 15:30:12] MISSED: hey.
+[2025-03-08 15:30:15] MISSED: service
+[2025-03-08 15:30:18] MISSED: youtube
+[2025-03-08 15:30:21] MISSED: thank you.
+[2025-03-08 15:30:24] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:30:35] MISSED: thank you.
+[2025-03-08 15:30:38] MISSED: thank you.
+[2025-03-08 15:30:41] MISSED: thank you.
+[2025-03-08 15:30:44] MISSED: thank you.
+[2025-03-08 15:30:47] MISSED: thank you.
+[2025-03-08 15:30:50] MISSED: thank you.
+[2025-03-08 15:30:53] MISSED: thank you.
+[2025-03-08 15:30:56] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:31:17] MISSED: obrigado.
+[2025-03-08 15:31:20] MISSED: cs2.
+[2025-03-08 15:31:23] MISSED: tá.
+[2025-03-08 15:31:25] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:31:37] MISSED: thank you.
+[2025-03-08 15:31:40] MISSED: thank you.
+[2025-03-08 15:31:43] MISSED: thank you.
+[2025-03-08 15:31:46] MISSED: thank you.
+[2025-03-08 15:31:49] MISSED: thank you.
+[2025-03-08 15:31:52] MISSED: thank you.
+[2025-03-08 15:31:55] MISSED: tchau.
+[2025-03-08 15:31:58] MISSED: thank you.
+[2025-03-08 15:32:01] MISSED: thank you.
+[2025-03-08 15:32:04] MISSED: thank you.
+[2025-03-08 15:32:07] MISSED: thank you.
+[2025-03-08 15:32:10] MISSED: thank you.
+[2025-03-08 15:32:13] MISSED: thank you.
+[2025-03-08 15:32:16] MISSED: thank you.
+[2025-03-08 15:32:19] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:32:24] MISSED: thank you.
+[2025-03-08 15:32:27] MISSED: thank you.
+[2025-03-08 15:32:30] MISSED: okay.
+[2025-03-08 15:32:33] MISSED: thank you.
+[2025-03-08 15:32:36] MISSED: hey, charvis?
+[2025-03-08 15:32:39] MISSED: thank you.
+[2025-03-08 15:32:42] MISSED: hey, jar.
+[2025-03-08 15:32:45] MISSED: service.
+[2025-03-08 15:32:48] MISSED: thank you.
+[2025-03-08 15:32:51] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:33:00] MISSED: thank you.
+[2025-03-08 15:33:02] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:33:12] MISSED: thank you.
+[2025-03-08 15:33:14] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:33:23] MISSED: продолжение следует...
+[2025-03-08 15:33:26] MISSED: thank you.
+[2025-03-08 15:33:29] MISSED: thank you.
+[2025-03-08 15:33:32] MISSED: продолжение следует...
+[2025-03-08 15:33:35] MISSED: thank you.
+[2025-03-08 15:33:38] MISSED: 
+[2025-03-08 15:33:41] DETECTED (jarvis-like word): rejarvis
+[2025-03-08 15:33:47] MISSED: grazie.
+[2025-03-08 15:33:50] MISSED: grazie.
+[2025-03-08 15:33:53] MISSED: 
+[2025-03-08 15:33:56] MISSED: thank you.
+[2025-03-08 15:33:59] DETECTED (ei jarvis): rei jarvis.
+[2025-03-08 15:34:07] MISSED: thank you.
+[2025-03-08 15:34:10] MISSED: oh shit.
+[2025-03-08 15:34:13] MISSED: thank you.
+[2025-03-08 15:34:16] MISSED: thank you.
+[2025-03-08 15:34:19] MISSED: thank you.
+[2025-03-08 15:34:22] MISSED: thank you.
+[2025-03-08 15:34:25] MISSED: thank you.
+[2025-03-08 15:34:28] MISSED: thank you.
+[2025-03-08 15:34:31] MISSED: gracias.
+[2025-03-08 15:34:34] MISSED: ¿será que él está volviendo a jugar con el?
+[2025-03-08 15:34:37] MISSED: agora...
+[2025-03-08 15:34:40] MISSED: parece que sim.
+[2025-03-08 15:34:43] MISSED: obrigado.
+[2025-03-08 15:34:46] MISSED: está ouvindo o tempo todo.
+[2025-03-08 15:34:49] MISSED: thank you.
+[2025-03-08 15:34:52] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:34:58] MISSED: thank you.
+[2025-03-08 15:35:00] MISSED: thank you.
+[2025-03-08 15:35:03] MISSED: thank you.
+[2025-03-08 15:35:06] MISSED: thank you.
+[2025-03-08 15:35:09] MISSED: pode entrar.
+[2025-03-08 15:35:12] MISSED: olha só que legal
+[2025-03-08 15:35:15] MISSED: vincano
+[2025-03-08 15:35:18] MISSED: hej!
+[2025-03-08 15:35:21] MISSED: surface
+[2025-03-08 15:35:24] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:35:33] MISSED: thank you.
+[2025-03-08 15:35:36] MISSED: check out!
+[2025-03-08 15:35:39] MISSED: quer ver?
+[2025-03-08 15:35:42] MISSED: uma coisa mais...
+[2025-03-08 15:35:45] MISSED: no, está muy cansada.
+[2025-03-08 15:35:48] MISSED: eu não lembro o que eu tava fazendo. calma. calma.
+[2025-03-08 15:35:50] MISSED: calma, falei.
+[2025-03-08 15:35:54] MISSED: vê, me mostra.
+[2025-03-08 15:35:57] MISSED: moi, c'est le temps.
+[2025-03-08 15:35:59] MISSED: o que eu estava testando aqui?
+[2025-03-08 15:36:04] MISSED: ...
+[2025-03-08 15:36:05] MISSED: você quer fazer você?
+[2025-03-08 15:36:08] DETECTED (jarvis-like word): bye. hey, jarvis. oh, my god.
+[2025-03-08 15:36:14] MISSED: thank you.
+[2025-03-08 15:36:17] MISSED: ele para... eu fiz assim.
+[2025-03-08 15:36:20] MISSED: tipo, eu...
+[2025-03-08 15:36:23] MISSED: eu estou fazendo um log de tudo que eu falo, porque muitas vezes...
+[2025-03-08 15:36:26] MISSED: ele não detecta direito, né? ah, eu quero fazer uma análise.
+[2025-03-08 15:36:29] MISSED: do que ele interpreta errado quando eu falo
+[2025-03-08 15:36:32] DETECTED (jarvis-like word): hello, i'm jarvis.
+[2025-03-08 15:36:38] MISSED: e aí, toda vez que eu dito...
+[2025-03-08 15:36:41] MISSED: alguma coisa ou quando eu clico, quando eu uso qualquer...
+[2025-03-08 15:36:44] MISSED: com qualquer botão, ele para de digitar por mim.
+[2025-03-08 15:36:46] MISSED: e ele começa ao...
+[2025-03-08 15:36:49] MISSED: tipo assim, ele tá ouvindo o tempo todo. mas ele só...
+[2025-03-08 15:36:52] MISSED: só...
+[2025-03-08 15:36:55] MISSED: så kan du jo inte tekte på fullt.
+[2025-03-08 15:36:58] MISSED: falei, ô joão...
+[2025-03-08 15:37:01] MISSED: é...
+[2025-03-08 15:37:05] MISSED: noch so ein glimmizeitf kita freunde!
+[2025-03-08 15:37:07] MISSED: deixa eu... aqui no meu github. já tá no github.
+[2025-03-08 15:37:10] MISSED: 
+[2025-03-08 15:37:13] MISSED: perguntar no transcriptor, blá blá, como que instala, como que...
+[2025-03-08 15:37:16] MISSED: que usa detectar...
+[2025-03-08 15:37:19] MISSED: assim, ele inicialmente está
+[2025-03-08 15:37:22] MISSED: usando qualquer língua pra ter que...
+[2025-03-08 15:37:25] MISSED: mas logo depois eu mudo para português para...
+[2025-03-08 15:37:28] MISSED: vou focar só em português, porque senão ele muda.
+[2025-03-08 15:37:31] MISSED: muitas coisas erradas, sabe? aí eu percebi que se eu filtrar...
+[2025-03-08 15:37:34] MISSED: por português ele funciona melhor e eu consigo falar mais
+[2025-03-08 15:37:37] MISSED: mais rápido em português do que em inglês.
+[2025-03-08 15:37:40] MISSED: mas tem como instalar outras línguas aqui em cima, como que faz.
+[2025-03-08 15:37:42] MISSED: 
+[2025-03-08 15:37:45] MISSED: e também o negócio de fazer log, né? no início eu perdi.
+[2025-03-08 15:37:48] DETECTED (ei jarvis): antes eu estava só rei jarvis, mas eu percebi que ele...
+[2025-03-08 15:37:51] MISSED: não está funcionando? aí eu pedi para adicionar outras variações.
+[2025-03-08 15:37:54] MISSED: aí você fala, se ele fizer qualquer uma dessas aqui...
+[2025-03-08 15:37:57] MISSED: ele acha que é... já vi. é, ele acha que é...
+[2025-03-08 15:38:00] MISSED: que eu quero detectar ele. é que você tem um, né?
+[2025-03-08 15:38:03] MISSED: e aí
+[2025-03-08 15:38:06] MISSED: aí, só que...
+[2025-03-08 15:38:09] MISSED: porque ele melhorou muito, mas às vezes ele ainda não funciona.
+[2025-03-08 15:38:12] MISSED: então eu acho que às vezes ele ia...
+[2025-03-08 15:38:15] MISSED: alguma outra coisinha diferente, só que eu não sei exatamente o que é.
+[2025-03-08 15:38:18] MISSED: então eu implementei um log para depois...
+[2025-03-08 15:38:21] MISSED: tempo eu analisar isso logo e ver
+[2025-03-08 15:38:24] MISSED: quais são as coisas parecidas com a frase de...
+[2025-03-08 15:38:27] MISSED: porque daí eu posso adicionar nessa lista aqui e ele vai ficar melhor.
+[2025-03-08 15:38:30] MISSED: é...
+[2025-03-08 15:38:32] MISSED: vamos fazer aqui.
+[2025-03-08 15:38:35] DETECTED (hey jarvis): hey jarvis.
+[2025-03-08 15:38:47] MISSED: thank you.
+[2025-03-08 15:38:50] MISSED: eu tenho uma biblioteca aqui.
+[2025-03-08 15:38:53] MISSED: não vectorizado.
+[2025-03-08 15:38:56] MISSED: 
+[2025-03-08 15:38:59] MISSED: ah, entendeu.
+[2025-03-08 15:39:02] MISSED: esse colega não precisa ser exato, sabe? os llms...
+[2025-03-08 15:39:05] MISSED: entendem.
+[2025-03-08 15:39:08] MISSED: biblioteca que eu fiz, que são funções não vectorizadas
+[2025-03-08 15:39:11] MISSED: porque está tudo vectorizado já
+[2025-03-08 15:39:14] MISSED: e também foi ele que fez pra mim, né? essa aqui foi eu que fiz.
+[2025-03-08 15:39:17] MISSED: de verdade, essa aqui ele converteu da nova turquia
+[2025-03-08 15:39:20] MISSED: para ver se é autorizado. e agora eu estou criando uma...
+[2025-03-08 15:39:23] MISSED: porrada de testes para cada uma das funções compartilhadas.
+[2025-03-08 15:39:26] MISSED: porque essa aqui eu sei que funciona certo.
+[2025-03-08 15:39:29] MISSED: ela é lenta. essa aqui foi ele que... é a do neném.
+[2025-03-08 15:39:32] MISSED: eu não gosto nada assim de maçã de foguete.
+[2025-03-08 15:39:34] MISSED: trocentas mil funções.
+[2025-03-08 15:39:37] MISSED: ahí
+[2025-03-08 15:39:40] MISSED: essa aqui é a minha função, que eu fiz na raça.
+[2025-03-08 15:39:43] MISSED: só que ela é lenta, aí essas são as funções que ele criou
+[2025-03-08 15:39:46] MISSED: ксения бойкова, виктория задинская.
+[2025-03-08 15:39:49] MISSED: 10 mil vezes mais rápido. só que eu não sei se funciona.
+[2025-03-08 15:39:52] MISSED: às vezes ele introduz erros, né? então eu mandei ele fazer outros...
+[2025-03-08 15:39:55] MISSED: programas de teste que chamam cada um...
+[2025-03-08 15:39:58] MISSED: dessas duas e compara. e aí ele mesmo detecta qual que tá errado ou não.
+[2025-03-08 15:40:01] MISSED: ele nos corrige.
+[2025-03-08 15:40:04] MISSED: muito louco.
+[2025-03-08 15:40:07] MISSED: 6 e 5.
+[2025-03-08 15:40:10] MISSED: obrigada.
+[2025-03-08 15:40:13] MISSED: e o morro que ficava
+[2025-03-08 15:40:16] MISSED: pode ser? não.
+[2025-03-08 15:40:18] MISSED: sair daqui 40 minutos.
+[2025-03-08 15:40:22] MISSED: obrigada.
+[2025-03-08 15:40:25] MISSED: na verdade, eu queria andar de bicicleta.
+[2025-03-08 15:40:27] MISSED: poxa, amor.
+[2025-03-08 15:40:30] MISSED: quer deixar para amanhã então?
+[2025-03-08 15:40:33] MISSED: a manhã vai estar solzinho.
+[2025-03-08 15:40:36] MISSED: det var det kvar.
+[2025-03-08 15:40:39] MISSED: nossa, agora eu tô muito feliz.
+[2025-03-08 15:40:42] MISSED: eu não preciso nem digitar.
+[2025-03-08 15:40:45] MISSED: olha aqui... nossa, morreu, cê tá enganado.
+[2025-03-08 15:40:48] MISSED: vamos começar a usar isso.
+[2025-03-08 15:40:51] MISSED: mas aí para lá, ele tem todo um processo de pensamento.
+[2025-03-08 15:40:54] MISSED: porque eu estou usando um modelo que tem... não é thinking?
+[2025-03-08 15:40:57] MISSED: pensa um pouco e aí, beleza, é isso que você quer fazer.
+[2025-03-08 15:41:00] MISSED: ele leu a a
+[2025-03-08 15:41:04] MISSED: cio lekak!
+[2025-03-08 15:41:06] MISSED: é, ele descobriu que as soluções eram...
+[2025-03-08 15:41:09] MISSED: aí ele leu só as funções que eu pedi aí agora ele foi ler
+[2025-03-08 15:41:12] MISSED: a biblioteca victorizaada.
+[2025-03-08 15:41:15] MISSED: aí ele criou um script, testa.
+[2025-03-08 15:41:18] MISSED: ex is hot? jij hebt een hele hot dooscript?
+[2025-03-08 15:41:20] MISSED: é...
+[2025-03-08 15:41:23] MISSED: either way, how are they?
+[2025-03-08 15:41:26] MISSED: vamos tentar com outro sintaxe.
+[2025-03-08 15:41:29] MISSED: powershell, aí ele rodou de novo, viu? aí deu os resultados.
+[2025-03-08 15:41:32] MISSED: já viu que dá 16 vezes mais rápido?
+[2025-03-08 15:41:35] MISSED: aí já lançou uma resposta assim, ah beleza, excelente.
+[2025-03-08 15:41:38] MISSED: concluído com sucesso, blá blá blá blá.
+[2025-03-08 15:41:41] MISSED: muito louco.
+[2025-03-08 15:41:44] MISSED: deixa eu parar.
+[2025-03-08 15:41:47] MISSED: tudo o que eu falo aí
+
+--- New session started: 2025-03-08 16:09:49 ---
+[2025-03-08 16:09:57] MISSED: thank you.
+[2025-03-08 16:10:00] MISSED: thank you.
+[2025-03-08 16:10:03] DETECTED (hey jarvis): hey jarvis
+[2025-03-08 16:10:11] MISSED: e aí
+[2025-03-08 16:10:14] MISSED: gracias.
+[2025-03-08 16:10:17] MISSED: gracias.
+[2025-03-08 16:10:20] MISSED: thank you.
+[2025-03-08 16:10:23] MISSED: thank you.
+[2025-03-08 16:10:26] MISSED: e aí
+[2025-03-08 16:10:29] MISSED: thank you.
+[2025-03-08 16:10:32] MISSED: thank you.
+[2025-03-08 16:10:35] MISSED: thank you.
+[2025-03-08 16:10:38] MISSED: thank you.
+[2025-03-08 16:10:41] MISSED: thank you.
+[2025-03-08 16:10:44] MISSED: thank you.
+[2025-03-08 16:10:47] MISSED: thank you.
+[2025-03-08 16:10:50] MISSED: thank you.
+[2025-03-08 16:10:53] MISSED: thank you.
+[2025-03-08 16:10:56] MISSED: thank you.
+[2025-03-08 16:10:59] MISSED: thank you.
+[2025-03-08 16:11:02] MISSED: thank you.
+[2025-03-08 16:11:05] MISSED: 
+[2025-03-08 16:11:07] MISSED: thank you.
+[2025-03-08 16:11:10] MISSED: thank you.
+[2025-03-08 16:11:13] MISSED: gracias.
+[2025-03-08 16:11:16] MISSED: thank you.
+[2025-03-08 16:11:19] MISSED: thank you.
+[2025-03-08 16:11:22] MISSED: thank you.
+[2025-03-08 16:11:25] MISSED: thank you.
+[2025-03-08 16:11:28] MISSED: thank you.
+[2025-03-08 16:11:31] MISSED: thank you.
+[2025-03-08 16:11:34] MISSED: puis...
+[2025-03-08 16:11:37] MISSED: thank you.
+[2025-03-08 16:11:40] MISSED: e aí
+[2025-03-08 16:11:43] MISSED: thank you.
+[2025-03-08 16:11:46] MISSED: thank you.
+[2025-03-08 16:11:49] MISSED: thank you.
+[2025-03-08 16:11:52] MISSED: thank you.
+[2025-03-08 16:11:54] MISSED: thank you.
+[2025-03-08 16:11:58] MISSED: thank you.
+[2025-03-08 16:12:00] MISSED: thank you.
+[2025-03-08 16:12:03] MISSED: thank you.
+[2025-03-08 16:12:06] MISSED: thank you.
+[2025-03-08 16:12:09] MISSED: thank you.
+[2025-03-08 16:12:12] MISSED: thank you.
+[2025-03-08 16:12:15] MISSED: thank you.
+[2025-03-08 16:12:18] MISSED: thank you.
+[2025-03-08 16:12:21] MISSED: thank you.
+[2025-03-08 16:12:24] MISSED: thank you.
+[2025-03-08 16:12:27] MISSED: thank you.
+[2025-03-08 16:12:30] MISSED: thank you.
+[2025-03-08 16:12:33] MISSED: e aí
+[2025-03-08 16:12:36] MISSED: thank you.
+[2025-03-08 16:12:39] MISSED: thank you.
+[2025-03-08 16:12:41] MISSED: thank you.
+[2025-03-08 16:12:45] MISSED: thank you.
+[2025-03-08 16:12:47] MISSED: thank you.
+[2025-03-08 16:12:50] MISSED: thank you.
+[2025-03-08 16:12:53] MISSED: thank you.
+[2025-03-08 16:12:56] MISSED: thank you.
+[2025-03-08 16:12:59] MISSED: thank you.
+[2025-03-08 16:13:02] MISSED: thank you.
+[2025-03-08 16:13:05] MISSED: e aí
+[2025-03-08 16:13:08] MISSED: thank you.
+[2025-03-08 16:13:11] MISSED: e aí
+[2025-03-08 16:13:14] MISSED: obrigado.
+[2025-03-08 16:13:17] MISSED: 
+[2025-03-08 16:13:20] MISSED: thank you.
+[2025-03-08 16:13:23] MISSED: thank you.
+[2025-03-08 16:13:26] MISSED: thank you.
+[2025-03-08 16:13:29] MISSED: gracias.
+[2025-03-08 16:13:32] MISSED: thank you.
+[2025-03-08 16:13:35] MISSED: thank you.
+[2025-03-08 16:13:38] MISSED: thank you.
+[2025-03-08 16:13:41] MISSED: e aí
+[2025-03-08 16:13:44] MISSED: thank you.
+[2025-03-08 16:13:46] MISSED: e aí
+[2025-03-08 16:13:49] MISSED: thank you.
+[2025-03-08 16:13:52] MISSED: obrigado.
+[2025-03-08 16:13:55] MISSED: thank you.
+[2025-03-08 16:13:58] MISSED: thank you.
+[2025-03-08 16:14:01] MISSED: thank you.
+[2025-03-08 16:14:04] MISSED: thank you.
+[2025-03-08 16:14:07] MISSED: thank you.
+[2025-03-08 16:14:10] MISSED: thank you.
+[2025-03-08 16:14:13] MISSED: thank you.
+[2025-03-08 16:14:16] MISSED: thank you.
+[2025-03-08 16:14:19] MISSED: thank you.
+[2025-03-08 16:14:22] MISSED: thank you.
+[2025-03-08 16:14:25] MISSED: thank you.
+[2025-03-08 16:14:28] MISSED: thank you.
+[2025-03-08 16:14:31] MISSED: thank you.
+[2025-03-08 16:14:34] MISSED: thank you.
+[2025-03-08 16:14:37] MISSED: toma banho já, amor
+[2025-03-08 16:14:40] MISSED: more?
+[2025-03-08 16:14:42] MISSED: já?
+[2025-03-08 16:14:45] MISSED: thank you.
+[2025-03-08 16:14:48] MISSED: thank you.
+[2025-03-08 16:14:51] MISSED: thank you.
+[2025-03-08 16:14:54] MISSED: thank you.
+[2025-03-08 16:14:57] MISSED: thank you.
+[2025-03-08 16:15:02] MISSED: nu skal jeg thoughke.
+[2025-03-08 16:15:03] MISSED: merci.
+[2025-03-08 16:15:06] MISSED: e aí
+[2025-03-08 16:15:09] MISSED: thank you.
+[2025-03-08 16:15:12] MISSED: gracias.
+[2025-03-08 16:15:15] MISSED: thank you.
+[2025-03-08 16:15:18] MISSED: thank you.
+[2025-03-08 16:15:21] MISSED: um negócio bem legal
+[2025-03-08 16:15:24] MISSED: thank you.
+[2025-03-08 16:15:27] MISSED: thank you.
+[2025-03-08 16:15:30] MISSED: obrigada.
+[2025-03-08 16:15:33] MISSED: falando nisso...
+[2025-03-08 16:15:36] MISSED: coisa bem legal.
+[2025-03-08 16:15:39] MISSED: ja.
+[2025-03-08 16:15:42] MISSED: você lembra o contato? sim, eu lembro.
+[2025-03-08 16:15:46] MISSED: for that one swallow it
+[2025-03-08 16:15:48] MISSED: não limpa aquilo ali, né? como não, amor?
+[2025-03-08 16:15:51] MISSED: o negócio, o... nossa, mas tá rolando de novo.
+[2025-03-08 16:15:54] MISSED: você sempre deixa assim do jeito que tá?
+[2025-03-08 16:15:57] MISSED: não, porra.
+[2025-03-08 16:16:00] MISSED: não, não lá dentro
+[2025-03-08 16:16:03] MISSED: não, sem tudo.
+[2025-03-08 16:16:06] MISSED: yeah.
+[2025-03-08 16:16:09] MISSED: onde que tá aquela caixinha de plástico?
+[2025-03-08 16:16:12] MISSED: tipo, que ficavam coisas minhas.
+[2025-03-08 16:16:15] MISSED: porque eu estava procurando
+[2025-03-08 16:16:18] MISSED: não lembro o que ele pegava, acho que era pinça ou alguma coisa assim
+[2025-03-08 16:16:21] MISSED: e eu não achei.
+[2025-03-08 16:16:23] MISSED: thank you.
+[2025-03-08 16:16:26] MISSED: thank you.
+[2025-03-08 16:16:29] MISSED: sushi invincible.
+[2025-03-08 16:16:32] MISSED: já?
+[2025-03-08 16:16:35] MISSED: ah, a gente aproveita e vai no mercado de...
+[2025-03-08 16:16:38] MISSED: 
+[2025-03-08 16:16:41] MISSED: um saco lá.
+[2025-03-08 16:16:44] MISSED: sair de noite depressiva.
+[2025-03-08 16:16:47] MISSED: tá bom?
+[2025-03-08 16:16:50] MISSED: thank you.
+[2025-03-08 16:16:53] MISSED: thank you.
+[2025-03-08 16:16:55] MISSED: thank you.
+[2025-03-08 16:16:59] MISSED: esqueci já?
+[2025-03-08 16:17:02] MISSED: no, book. it's a nice book.
+[2025-03-08 16:17:05] MISSED: né?
+[2025-03-08 16:17:08] MISSED: você não falou que sim. você não falou nem sim.
+[2025-03-08 16:17:10] MISSED: nem não
+[2025-03-08 16:17:13] MISSED: a senhora falou sim.
+[2025-03-08 16:17:16] MISSED: mas ok.
+[2025-03-08 16:17:19] MISSED: pode ser a sua vez, me chama se quiser.
+
+--- New session started: 2025-03-08 19:44:29 ---
+[2025-03-08 19:44:37] MISSED: hey,
+[2025-03-08 19:44:39] MISSED: this.
+[2025-03-08 19:44:42] MISSED: thank you.
+[2025-03-08 19:44:45] MISSED: thank you.
+[2025-03-08 19:44:48] DETECTED (jarvis-like word): hey, jarvis.
+[2025-03-08 19:44:57] MISSED: essa brincadeira.
+[2025-03-08 19:45:00] MISSED: gracias.
+[2025-03-08 19:45:03] MISSED: thank you.
+[2025-03-08 19:45:06] MISSED: grazie.
+[2025-03-08 19:45:09] MISSED: thank you.
+[2025-03-08 19:45:12] MISSED: thank you.
+[2025-03-08 19:45:15] MISSED: thank you.
+[2025-03-08 19:45:17] MISSED: e aí
+[2025-03-08 19:45:20] MISSED: thank you.
+[2025-03-08 19:45:23] MISSED: thank you.
+[2025-03-08 19:45:26] MISSED: e aí
+[2025-03-08 19:45:29] MISSED: thank you.
+[2025-03-08 19:45:32] MISSED: thank you.
+[2025-03-08 19:45:35] MISSED: thank you.
+[2025-03-08 19:45:38] MISSED: thank you.
+[2025-03-08 19:45:41] MISSED: thank you.
+[2025-03-08 19:45:44] MISSED: gracias.
+[2025-03-08 19:45:47] MISSED: thank you.
+[2025-03-08 19:45:50] MISSED: thank you.
+[2025-03-08 19:45:53] MISSED: thank you.
+[2025-03-08 19:45:56] MISSED: obrigado.
+[2025-03-08 19:45:59] MISSED: thank you.
+[2025-03-08 19:46:02] MISSED: grazie.
+[2025-03-08 19:46:05] MISSED: thank you.
+[2025-03-08 19:46:08] MISSED: thank you.
+[2025-03-08 19:46:11] MISSED: 
+[2025-03-08 19:46:13] MISSED: thank you.
+[2025-03-08 19:46:16] MISSED: thank you.
+[2025-03-08 19:46:19] MISSED: thank you.
+[2025-03-08 19:46:22] MISSED: thank you.
+[2025-03-08 19:46:25] MISSED: thank you.
+[2025-03-08 19:46:28] MISSED: thank you.
+[2025-03-08 19:46:31] MISSED: thank you.
+[2025-03-08 19:46:34] MISSED: thank you.
+[2025-03-08 19:46:37] MISSED: thank you.
+[2025-03-08 19:46:40] MISSED: thank you.
+[2025-03-08 19:46:43] MISSED: thank you.
+[2025-03-08 19:46:46] MISSED: thank you.
+[2025-03-08 19:46:49] MISSED: thank you.
+[2025-03-08 19:46:52] MISSED: thank you.
+[2025-03-08 19:46:55] MISSED: thank you.
+[2025-03-08 19:46:58] MISSED: thank you.
+[2025-03-08 19:47:01] MISSED: thank you.
+[2025-03-08 19:47:03] MISSED: thank you.
+[2025-03-08 19:47:06] MISSED: thank you.
+[2025-03-08 19:47:09] MISSED: thank you.
+[2025-03-08 19:47:12] MISSED: thank you.
+[2025-03-08 19:47:15] MISSED: e aí
+[2025-03-08 19:47:18] MISSED: thank you.
+[2025-03-08 19:47:21] MISSED: thank you.
+[2025-03-08 19:47:24] MISSED: thank you.
+[2025-03-08 19:47:27] MISSED: thank you.
+[2025-03-08 19:47:30] MISSED: thank you.
+[2025-03-08 19:47:33] MISSED: i'm going to leave it to you.
+[2025-03-08 19:47:36] MISSED: thank you.
+[2025-03-08 19:47:39] MISSED: thank you.
+[2025-03-08 19:47:42] MISSED: thank you.
+[2025-03-08 19:47:45] MISSED: thank you.
+[2025-03-08 19:47:48] MISSED: thank you.
+[2025-03-08 19:47:51] MISSED: thank you.
+[2025-03-08 19:47:54] MISSED: thank you.
+[2025-03-08 19:47:57] MISSED: 감사합니다.
+[2025-03-08 19:48:00] MISSED: thank you.
+[2025-03-08 19:48:02] MISSED: gracias.
+[2025-03-08 19:48:05] MISSED: thank you.
+[2025-03-08 19:48:08] MISSED: thank you.
+[2025-03-08 19:48:11] MISSED: thank you.
+[2025-03-08 19:48:14] MISSED: thank you.
+[2025-03-08 19:48:17] MISSED: thank you.
+[2025-03-08 19:48:20] MISSED: 
+[2025-03-08 19:48:23] MISSED: thank you.
+[2025-03-08 19:48:26] MISSED: thank you.
+[2025-03-08 19:48:29] MISSED: thank you.
+[2025-03-08 19:48:32] MISSED: thank you.
+[2025-03-08 19:48:35] MISSED: thank you.
+[2025-03-08 19:48:38] MISSED: thank you.
+[2025-03-08 19:48:41] MISSED: thank you.
+[2025-03-08 19:48:44] MISSED: thank you.
+[2025-03-08 19:48:47] MISSED: thank you.
+[2025-03-08 19:48:50] MISSED: thank you.
+[2025-03-08 19:48:53] MISSED: thank you.
+[2025-03-08 19:48:56] MISSED: thank you.
+[2025-03-08 19:48:59] MISSED: thank you.
+[2025-03-08 19:49:02] MISSED: thank you.
+[2025-03-08 19:49:05] MISSED: thank you.
+[2025-03-08 19:49:08] MISSED: thank you.
+[2025-03-08 19:49:11] MISSED: 
+[2025-03-08 19:49:14] MISSED: thank you.
+[2025-03-08 19:49:17] MISSED: gracias.
+[2025-03-08 19:49:20] MISSED: no, no.
+[2025-03-08 19:49:23] MISSED: thank you.
+[2025-03-08 19:49:26] MISSED: thank you.
+[2025-03-08 19:49:29] MISSED: tem poucas calorias?
+[2025-03-08 19:49:32] MISSED: vai absorver sem álcool
+[2025-03-08 19:49:36] MISSED: eu não sei qual é o dedo agora.
+[2025-03-08 19:49:38] MISSED: 
+[2025-03-08 19:49:41] MISSED: não tinha um garfo aqui?
+[2025-03-08 19:49:44] MISSED: 
+[2025-03-08 19:49:47] MISSED: tinha que colocar essa aí.
+[2025-03-08 19:49:50] MISSED: a parede também né
+[2025-03-08 19:49:53] MISSED: obrigada.
+[2025-03-08 19:49:56] MISSED: fácil.
+[2025-03-08 19:49:59] MISSED: all right.
+[2025-03-08 19:50:02] MISSED: deixei o pretinho ali porque depois vou usar ele.
+[2025-03-08 19:50:05] MISSED: thank you.
+[2025-03-08 19:50:08] MISSED: gracias.
+[2025-03-08 19:50:10] MISSED: gracias.
+[2025-03-08 19:50:13] MISSED: thank you.
+[2025-03-08 19:50:16] MISSED: thank you.
+[2025-03-08 19:50:19] MISSED: thank you.
+[2025-03-08 19:50:22] MISSED: thank you.
+[2025-03-08 19:50:25] MISSED: thank you.
+[2025-03-08 19:50:28] MISSED: thank you.
+[2025-03-08 19:50:31] MISSED: thank you.
+[2025-03-08 19:50:34] MISSED: thank you.
+[2025-03-08 19:50:37] MISSED: thank you.
+[2025-03-08 19:50:40] MISSED: thank you.
+[2025-03-08 19:50:43] MISSED: thank you.
+[2025-03-08 19:50:46] MISSED: продолжение следует...
+[2025-03-08 19:50:49] MISSED: thank you.
+[2025-03-08 19:50:52] MISSED: thank you.
+[2025-03-08 19:50:55] MISSED: thank you.
+[2025-03-08 19:50:58] MISSED: uche!
+[2025-03-08 19:51:01] MISSED: e aí
+[2025-03-08 19:51:04] MISSED: tá carregando essa merda?
+[2025-03-08 19:51:07] MISSED: thank you.
+[2025-03-08 19:51:09] MISSED: thank you.
+[2025-03-08 19:51:12] MISSED: thank you.
+[2025-03-08 19:51:15] MISSED: thank you.
+[2025-03-08 19:51:18] MISSED: thank you.
+[2025-03-08 19:51:21] MISSED: thank you.
+[2025-03-08 19:51:24] MISSED: thank you.
+[2025-03-08 19:51:27] MISSED: tchau.
+[2025-03-08 19:51:30] MISSED: thank you.
+[2025-03-08 19:51:33] MISSED: thank you.
+[2025-03-08 19:51:36] MISSED: all right.
+[2025-03-08 19:51:39] MISSED: thank you.
+[2025-03-08 19:51:42] MISSED: thank you.
+[2025-03-08 19:51:45] MISSED: thank you.
+[2025-03-08 19:51:48] MISSED: você não tem nenhuma cabecinha de carregação?
+[2025-03-08 19:51:51] MISSED: vou colocar no celular, em algum lugar?
+[2025-03-08 19:51:54] MISSED: não sei, porém.
+[2025-03-08 19:51:57] MISSED: não está carregando também
+[2025-03-08 19:52:02] MISSED: thank you.
+[2025-03-08 19:52:06] MISSED: thank you.
+[2025-03-08 19:52:09] MISSED: спасибо.
+[2025-03-08 19:52:12] MISSED: thank you.
+[2025-03-08 19:52:15] MISSED: thank you.
+[2025-03-08 19:52:18] MISSED: thank you.
+[2025-03-08 19:52:21] MISSED: thank you.
+[2025-03-08 19:52:24] MISSED: thank you.
+[2025-03-08 19:52:29] MISSED: thank you.
+[2025-03-08 19:52:34] MISSED: 
+[2025-03-08 19:52:38] MISSED: thank you.
+[2025-03-08 19:52:41] MISSED: thank you.
+[2025-03-08 19:52:44] MISSED: e aí
+[2025-03-08 19:52:47] MISSED: e aí
+[2025-03-08 19:52:50] MISSED: thank you.
+[2025-03-08 19:52:53] MISSED: thank you.
+[2025-03-08 19:52:56] MISSED: thank you.
+[2025-03-08 19:52:59] MISSED: thank you.
+[2025-03-08 19:53:02] MISSED: thank you.
+[2025-03-08 19:53:05] MISSED: thank you.
+[2025-03-08 19:53:08] MISSED: e aí
+[2025-03-08 19:53:11] MISSED: thank you.
+[2025-03-08 19:53:14] MISSED: e aí
+[2025-03-08 19:53:17] MISSED: som.
+[2025-03-08 19:53:20] MISSED: okay.
+[2025-03-08 19:53:23] MISSED: hmm.
+[2025-03-08 19:53:25] MISSED: thank you.
+[2025-03-08 19:53:28] MISSED: okay.
+[2025-03-08 19:53:31] MISSED: teste de som.
+[2025-03-08 19:53:34] MISSED: e aí
+[2025-03-08 19:53:37] MISSED: thank you.
+[2025-03-08 19:53:40] MISSED: thank you.
+[2025-03-08 19:53:43] MISSED: thank you.
+[2025-03-08 19:53:46] MISSED: thank you.
+[2025-03-08 19:53:49] MISSED: thank you.
+[2025-03-08 19:53:52] MISSED: thank you.
+[2025-03-08 19:53:55] MISSED: thank you.
+[2025-03-08 19:53:58] MISSED: thank you.
+[2025-03-08 19:54:01] MISSED: thank you.
+[2025-03-08 19:54:04] MISSED: e aí
+[2025-03-08 19:54:07] MISSED: thank you.
+[2025-03-08 19:54:10] MISSED: thank you.
+[2025-03-08 19:54:13] MISSED: thank you.
+[2025-03-08 19:54:16] MISSED: thank you.
+[2025-03-08 19:54:19] MISSED: thank you.
+[2025-03-08 19:54:21] MISSED: gracias.
+[2025-03-08 19:54:24] MISSED: e aí
+[2025-03-08 19:54:27] MISSED: e aí
+[2025-03-08 19:54:30] MISSED: thank you.
+[2025-03-08 19:54:33] MISSED: gracias.
+[2025-03-08 19:54:36] MISSED: thank you.
+[2025-03-08 19:54:39] MISSED: thank you.
+[2025-03-08 19:54:42] MISSED: thank you.
+[2025-03-08 19:54:45] MISSED: thank you.
+[2025-03-08 19:54:48] MISSED: thank you.
+[2025-03-08 19:54:51] MISSED: thank you.
+[2025-03-08 19:54:54] MISSED: thank you.
+[2025-03-08 19:54:57] MISSED: thank you.
+[2025-03-08 19:55:00] MISSED: thank you.
+[2025-03-08 19:55:03] MISSED: thank you.
+[2025-03-08 19:55:06] MISSED: thank you.
+[2025-03-08 19:55:09] MISSED: thank you.
+[2025-03-08 19:55:12] MISSED: thank you.
+[2025-03-08 19:55:14] MISSED: thank you.
+[2025-03-08 19:55:17] MISSED: thank you.
+[2025-03-08 19:55:20] MISSED: thank you.
+[2025-03-08 19:55:23] MISSED: thank you.
+[2025-03-08 19:55:26] MISSED: thank you.
+[2025-03-08 19:55:29] MISSED: thank you.
+[2025-03-08 19:55:32] MISSED: thank you.
+[2025-03-08 19:55:35] MISSED: gracias.
+[2025-03-08 19:55:38] MISSED: gracias.
+[2025-03-08 19:55:41] MISSED: thank you.
+[2025-03-08 19:55:44] MISSED: thank you.
+[2025-03-08 19:55:47] MISSED: thank you.
+[2025-03-08 19:55:50] MISSED: thank you.
+[2025-03-08 19:55:53] MISSED: thank you.
+[2025-03-08 19:55:56] MISSED: thank you.
+[2025-03-08 19:55:59] MISSED: thank you.
+[2025-03-08 19:56:02] MISSED: thank you.
+[2025-03-08 19:56:05] MISSED: thank you.
+[2025-03-08 19:56:07] MISSED: thank you.
+[2025-03-08 19:56:10] MISSED: thank you.
+[2025-03-08 19:56:13] MISSED: thank you.
+[2025-03-08 19:56:16] MISSED: thank you.
+[2025-03-08 19:56:19] MISSED: thank you.
+[2025-03-08 19:56:22] MISSED: thank you.
+[2025-03-08 19:56:25] MISSED: thank you.
+[2025-03-08 19:56:28] MISSED: thank you.
+[2025-03-08 19:56:31] MISSED: thank you.
+[2025-03-08 19:56:34] MISSED: thank you.
+[2025-03-08 19:56:37] MISSED: thank you.
+[2025-03-08 19:56:40] MISSED: thank you.
+[2025-03-08 19:56:43] MISSED: thank you.
+[2025-03-08 19:56:46] MISSED: thank you.
+[2025-03-08 19:56:49] MISSED: thank you.
+[2025-03-08 19:56:52] MISSED: thank you.
+[2025-03-08 19:56:55] MISSED: thank you.
+[2025-03-08 19:56:58] MISSED: thank you.
+[2025-03-08 19:57:01] MISSED: thank you.
+[2025-03-08 19:57:04] MISSED: thank you.
+[2025-03-08 19:57:07] MISSED: thank you.
+[2025-03-08 19:57:09] MISSED: thank you.
+[2025-03-08 19:57:12] MISSED: thank you.
+[2025-03-08 19:57:15] MISSED: thank you.
+[2025-03-08 19:57:18] MISSED: thank you.
+[2025-03-08 19:57:21] MISSED: thank you.
+[2025-03-08 19:57:24] MISSED: e aí
+[2025-03-08 19:57:27] MISSED: e aí
+[2025-03-08 19:57:30] MISSED: e aí
+[2025-03-08 19:57:33] MISSED: gracias.
+[2025-03-08 19:57:36] MISSED: thank you.
+[2025-03-08 19:57:39] MISSED: thank you.
+[2025-03-08 19:57:42] MISSED: thank you.
+[2025-03-08 19:57:45] MISSED: thank you.
+[2025-03-08 19:57:48] MISSED: thank you.
+[2025-03-08 19:57:51] MISSED: thank you.
+[2025-03-08 19:57:54] MISSED: thank you.
+[2025-03-08 19:57:57] MISSED: thank you.
+[2025-03-08 19:58:00] MISSED: thank you.
+[2025-03-08 19:58:02] MISSED: thank you.
+[2025-03-08 19:58:05] MISSED: thank you.
+[2025-03-08 19:58:08] MISSED: thank you.
+[2025-03-08 19:58:11] MISSED: gracias.
+[2025-03-08 19:58:14] MISSED: thank you.
+[2025-03-08 19:58:17] MISSED: thank you.
+[2025-03-08 19:58:20] MISSED: thank you.
+[2025-03-08 19:58:23] MISSED: thank you.
+[2025-03-08 19:58:26] MISSED: thank you.
+[2025-03-08 19:58:29] MISSED: thank you.
+[2025-03-08 19:58:32] MISSED: thank you.
+[2025-03-08 19:58:35] MISSED: thank you.
+[2025-03-08 19:58:38] MISSED: thank you.
+[2025-03-08 19:58:41] MISSED: thank you.
+[2025-03-08 19:58:44] MISSED: thank you.
+[2025-03-08 19:58:47] MISSED: thank you.
+[2025-03-08 19:58:49] MISSED: thank you.
+[2025-03-08 19:58:53] MISSED: thank you.
+[2025-03-08 19:58:55] MISSED: thank you.
+[2025-03-08 19:58:58] MISSED: thank you.
+[2025-03-08 19:59:01] MISSED: thank you.
+[2025-03-08 19:59:04] MISSED: thank you.
+[2025-03-08 19:59:07] MISSED: thank you.
+[2025-03-08 19:59:10] MISSED: thank you.
+[2025-03-08 19:59:13] MISSED: thank you.
+[2025-03-08 19:59:16] MISSED: thank you.
+[2025-03-08 19:59:19] MISSED: thank you.
+[2025-03-08 19:59:22] MISSED: thank you.
+[2025-03-08 19:59:25] MISSED: thank you.
+[2025-03-08 19:59:28] MISSED: thank you.
+[2025-03-08 19:59:31] MISSED: thank you.
+[2025-03-08 19:59:34] MISSED: thank you.
+[2025-03-08 19:59:37] MISSED: thank you.
+[2025-03-08 19:59:40] MISSED: thank you.
+[2025-03-08 19:59:42] MISSED: thank you.
+[2025-03-08 19:59:46] MISSED: thank you.
+[2025-03-08 19:59:49] MISSED: thank you.
+[2025-03-08 19:59:51] MISSED: thank you.
+[2025-03-08 19:59:54] MISSED: thank you.
+[2025-03-08 19:59:57] MISSED: thank you.
+[2025-03-08 20:00:00] MISSED: thank you.
+[2025-03-08 20:00:03] MISSED: thank you.
+[2025-03-08 20:00:06] MISSED: thank you.
+[2025-03-08 20:00:09] MISSED: thank you.
+[2025-03-08 20:00:12] MISSED: thank you.
+[2025-03-08 20:00:15] MISSED: thank you.
+[2025-03-08 20:00:18] MISSED: grazie.
+[2025-03-08 20:00:21] MISSED: thank you.
+[2025-03-08 20:00:24] MISSED: thank you.
+[2025-03-08 20:00:27] MISSED: thank you.
+[2025-03-08 20:00:30] MISSED: thank you.
+[2025-03-08 20:00:33] MISSED: thank you.
+[2025-03-08 20:00:36] MISSED: thank you.
+[2025-03-08 20:00:39] MISSED: thank you.
+[2025-03-08 20:00:42] MISSED: thank you.
+[2025-03-08 20:00:44] MISSED: thank you.
+[2025-03-08 20:00:47] MISSED: thank you.
+[2025-03-08 20:00:50] MISSED: thank you.
+[2025-03-08 20:00:53] MISSED: thank you.
+[2025-03-08 20:00:56] MISSED: thank you.
+[2025-03-08 20:00:59] MISSED: thank you.
+[2025-03-08 20:01:02] MISSED: thank you.
+[2025-03-08 20:01:05] MISSED: thank you.
+[2025-03-08 20:01:08] MISSED: thank you.
+[2025-03-08 20:01:11] MISSED: thank you.
+[2025-03-08 20:01:14] MISSED: thank you.
+[2025-03-08 20:01:17] MISSED: thank you.
+[2025-03-08 20:01:20] MISSED: thank you.
+[2025-03-08 20:01:23] MISSED: thank you.
+[2025-03-08 20:01:26] MISSED: thank you.
+[2025-03-08 20:01:29] MISSED: thank you.
+[2025-03-08 20:01:32] MISSED: thank you.
+[2025-03-08 20:01:34] MISSED: thank you.
+[2025-03-08 20:01:37] MISSED: you
+[2025-03-08 20:01:40] MISSED: thank you.
+[2025-03-08 20:01:43] MISSED: thank you.
+[2025-03-08 20:01:46] MISSED: thank you.
+[2025-03-08 20:01:49] MISSED: thank you.
+[2025-03-08 20:01:52] MISSED: e aí
+[2025-03-08 20:01:55] MISSED: thank you.
+[2025-03-08 20:01:58] MISSED: thank you.
+[2025-03-08 20:02:01] MISSED: thank you.
+[2025-03-08 20:02:04] MISSED: thank you.
+[2025-03-08 20:02:07] MISSED: thank you.
+[2025-03-08 20:02:10] MISSED: thank you.
+[2025-03-08 20:02:13] MISSED: thank you.
+[2025-03-08 20:02:16] MISSED: thank you.
+[2025-03-08 20:02:19] MISSED: thank you.
+[2025-03-08 20:02:22] MISSED: thank you.
+[2025-03-08 20:02:25] MISSED: thank you.
+[2025-03-08 20:02:28] MISSED: thank you.
+[2025-03-08 20:02:31] MISSED: thank you.
+[2025-03-08 20:02:33] MISSED: продолжение следует...
+[2025-03-08 20:02:36] MISSED: e aí
+[2025-03-08 20:02:39] MISSED: gracias.
+[2025-03-08 20:02:42] MISSED: grazie.
+[2025-03-08 20:02:45] MISSED: thank you.
+[2025-03-08 20:02:48] MISSED: thank you.
+[2025-03-08 20:02:51] MISSED: thank you.
+[2025-03-08 20:02:54] MISSED: thank you.
+[2025-03-08 20:02:57] MISSED: thank you.
+[2025-03-08 20:03:00] MISSED: e aí
+[2025-03-08 20:03:03] MISSED: thank you.
+[2025-03-08 20:03:06] MISSED: thank you.
+[2025-03-08 20:03:09] MISSED: thank you.
+[2025-03-08 20:03:12] MISSED: thank you.
+[2025-03-08 20:03:15] MISSED: thank you.
+[2025-03-08 20:03:18] MISSED: thank you.
+[2025-03-08 20:03:21] MISSED: thank you.
+[2025-03-08 20:03:24] MISSED: thank you.
+[2025-03-08 20:03:27] MISSED: thank you.
+[2025-03-08 20:03:29] MISSED: thank you.
+[2025-03-08 20:03:32] MISSED: thank you.
+[2025-03-08 20:03:35] MISSED: thank you.
+[2025-03-08 20:03:38] MISSED: thank you.
+[2025-03-08 20:03:41] MISSED: thank you.
+[2025-03-08 20:03:44] MISSED: thank you.
+[2025-03-08 20:03:47] MISSED: thank you.
+[2025-03-08 20:03:50] MISSED: thank you.
+[2025-03-08 20:03:53] MISSED: thank you.
+[2025-03-08 20:03:56] MISSED: thank you.
+[2025-03-08 20:03:59] MISSED: thank you.
+[2025-03-08 20:04:02] MISSED: thank you.
+[2025-03-08 20:04:05] MISSED: thank you.
+[2025-03-08 20:04:08] MISSED: thank you.
+[2025-03-08 20:04:11] MISSED: thank you.
+[2025-03-08 20:04:13] MISSED: thank you.
+[2025-03-08 20:04:16] MISSED: thank you.
+[2025-03-08 20:04:20] MISSED: thank you.
+[2025-03-08 20:04:22] MISSED: thank you.
+[2025-03-08 20:04:25] MISSED: thank you.
+[2025-03-08 20:04:28] MISSED: thank you.
+[2025-03-08 20:04:31] MISSED: thank you.
+[2025-03-08 20:04:34] MISSED: thank you.
+[2025-03-08 20:04:37] MISSED: thank you.
+[2025-03-08 20:04:40] MISSED: thank you.
+[2025-03-08 20:04:43] MISSED: thank you.
+[2025-03-08 20:04:46] MISSED: thank you.
+[2025-03-08 20:04:49] MISSED: thank you.
+[2025-03-08 20:04:52] MISSED: thank you.
+[2025-03-08 20:04:55] MISSED: thank you.
+[2025-03-08 20:04:58] MISSED: thank you.
+[2025-03-08 20:05:01] MISSED: thank you.
+[2025-03-08 20:05:04] MISSED: thank you.
+[2025-03-08 20:05:07] MISSED: thank you.
+[2025-03-08 20:05:10] MISSED: thank you.
+[2025-03-08 20:05:12] MISSED: thank you.
+[2025-03-08 20:05:15] MISSED: thank you.
+[2025-03-08 20:05:18] MISSED: thank you.
+[2025-03-08 20:05:21] MISSED: thank you.
+[2025-03-08 20:05:24] MISSED: thank you.
+[2025-03-08 20:05:27] MISSED: thank you.
+[2025-03-08 20:05:30] MISSED: thank you.
+[2025-03-08 20:05:33] MISSED: thank you.
+[2025-03-08 20:05:36] MISSED: thank you.
+[2025-03-08 20:05:39] MISSED: thank you.
+[2025-03-08 20:05:42] MISSED: thank you.
+[2025-03-08 20:05:45] MISSED: thank you.
+[2025-03-08 20:05:48] MISSED: thank you.
+[2025-03-08 20:05:51] MISSED: thank you.
+[2025-03-08 20:05:54] MISSED: thank you.
+[2025-03-08 20:05:57] MISSED: e aí
+[2025-03-08 20:06:00] MISSED: gracias.
+[2025-03-08 20:06:02] MISSED: thank you.
+[2025-03-08 20:06:06] MISSED: thank you.
+[2025-03-08 20:06:08] MISSED: thank you.
+[2025-03-08 20:06:12] MISSED: e aí
+
+--- New session started: 2025-03-09 15:57:48 ---
+[2025-03-09 15:57:55] MISSED: thank you.
+[2025-03-09 15:57:57] MISSED: thank you.
+[2025-03-09 15:58:00] MISSED: thank you.
+[2025-03-09 15:58:03] MISSED: thank you for watching!
+[2025-03-09 15:58:06] MISSED: thank you for watching.
+[2025-03-09 15:58:09] DETECTED (hey jarvis): hey jarvis.
+[2025-03-09 15:58:30] MISSED: thank you for watching!
+[2025-03-09 15:58:33] MISSED: eu gostei dos comentários, mas eu gostaria...
+[2025-03-09 15:58:36] MISSED: de ilustrar algumas coisas.
+[2025-03-09 15:58:39] MISSED: hey, sharpies.
+[2025-03-09 15:58:42] MISSED: thank you for watching.
+[2025-03-09 15:58:45] DETECTED (hey jarvis): hey jarvis.
+[2025-03-09 15:58:54] MISSED: thank you for watching!
+[2025-03-09 15:58:56] MISSED: 
+[2025-03-09 15:58:59] MISSED: thank you.
+[2025-03-09 15:59:02] MISSED: thank you.
+[2025-03-09 15:59:05] MISSED: thank you.
+[2025-03-09 15:59:08] MISSED: thank you for watching!
+[2025-03-09 15:59:11] MISSED: thank you.
+[2025-03-09 15:59:14] MISSED: thank you.
+[2025-03-09 15:59:17] MISSED: thank you.
+[2025-03-09 15:59:20] MISSED: thank you.
+[2025-03-09 15:59:23] MISSED: 
+[2025-03-09 15:59:26] MISSED: 
+[2025-03-09 15:59:29] MISSED: 
+[2025-03-09 15:59:32] MISSED: thank you.
+[2025-03-09 15:59:35] MISSED: thank you.
+[2025-03-09 15:59:38] MISSED: thank you.
+[2025-03-09 15:59:41] MISSED: thank you.
+[2025-03-09 15:59:43] MISSED: thank you.
+[2025-03-09 15:59:46] MISSED: thank you for watching!
+[2025-03-09 15:59:49] MISSED: thank you.
+[2025-03-09 15:59:52] MISSED: thank you.
+[2025-03-09 15:59:55] MISSED: thank you for watching!
+[2025-03-09 15:59:58] MISSED: thank you.
+[2025-03-09 16:00:01] MISSED: thank you.
+[2025-03-09 16:00:04] MISSED: thank you.
+[2025-03-09 16:00:07] MISSED: thank you.
+[2025-03-09 16:00:10] MISSED: thank you.
+[2025-03-09 16:00:13] MISSED: thank you.
+[2025-03-09 16:00:16] MISSED: thank you.
+[2025-03-09 16:00:19] MISSED: thank you.
+[2025-03-09 16:00:22] MISSED: thank you for watching!
+[2025-03-09 16:00:25] MISSED: thank you.
+[2025-03-09 16:00:28] MISSED: thank you for watching!
+[2025-03-09 16:00:31] MISSED: thank you.
+[2025-03-09 16:00:34] MISSED: thank you for watching!
+[2025-03-09 16:00:37] MISSED: thank you.
+[2025-03-09 16:00:39] MISSED: thank you.
+[2025-03-09 16:00:42] MISSED: thank you.
+[2025-03-09 16:00:45] MISSED: thank you.
+[2025-03-09 16:00:48] MISSED: thank you.
+[2025-03-09 16:00:51] MISSED: thank you.
+[2025-03-09 16:00:54] MISSED: thank you.
+[2025-03-09 16:00:57] MISSED: thank you for watching!
+[2025-03-09 16:01:00] MISSED: thank you.
+[2025-03-09 16:01:03] MISSED: hey, sharps.
+[2025-03-09 16:01:06] MISSED: thanks for watching!
+[2025-03-09 16:01:09] DETECTED (jarvis-like word): hey, jarvis.
+[2025-03-09 16:01:21] MISSED: thank you for watching!
+[2025-03-09 16:01:24] MISSED: 
+[2025-03-09 16:01:27] MISSED: thank you.
+[2025-03-09 16:01:30] MISSED: thank you.
+[2025-03-09 16:01:32] MISSED: thank you for watching.
+[2025-03-09 16:01:35] MISSED: 
+[2025-03-09 16:01:38] MISSED: thank you.
+[2025-03-09 16:01:41] MISSED: thank you.
+[2025-03-09 16:01:44] MISSED: 
+[2025-03-09 16:01:47] MISSED: thank you for watching!
+[2025-03-09 16:01:50] MISSED: thank you.
+[2025-03-09 16:01:53] MISSED: thank you.
+[2025-03-09 16:01:56] MISSED: thank you.
+[2025-03-09 16:01:59] MISSED: thank you.
+[2025-03-09 16:02:02] MISSED: thank you.
+[2025-03-09 16:02:05] MISSED: thank you.
+[2025-03-09 16:02:08] MISSED: thank you.
+[2025-03-09 16:02:11] MISSED: thank you for watching!
+[2025-03-09 16:02:13] MISSED: thank you.
+[2025-03-09 16:02:16] MISSED: thank you for watching!
+[2025-03-09 16:02:20] MISSED: thank you for watching!
+[2025-03-09 16:02:22] MISSED: thank you.
+[2025-03-09 16:02:25] MISSED: thank you.
+[2025-03-09 16:02:28] MISSED: thank you.
+[2025-03-09 16:02:31] MISSED: thank you.
+[2025-03-09 16:02:34] MISSED: thank you.
+[2025-03-09 16:02:37] MISSED: thank you.
+[2025-03-09 16:02:40] MISSED: thank you.
+[2025-03-09 16:02:43] MISSED: thank you.
+[2025-03-09 16:02:46] MISSED: thank you.
+[2025-03-09 16:02:49] MISSED: thank you for watching!
+[2025-03-09 16:02:52] MISSED: thank you for watching!
+[2025-03-09 16:02:55] MISSED: ご視聴ありがとうございました
+[2025-03-09 16:02:58] MISSED: thank you for watching!
+[2025-03-09 16:03:01] MISSED: thank you.
+[2025-03-09 16:03:04] MISSED: thank you for watching!
+[2025-03-09 16:03:07] MISSED: thank you for watching!
+[2025-03-09 16:03:09] MISSED: thank you.
+[2025-03-09 16:03:12] MISSED: thank you.
+[2025-03-09 16:03:15] MISSED: thank you.
+[2025-03-09 16:03:18] MISSED: thank you.
+[2025-03-09 16:03:21] MISSED: thank you.
+[2025-03-09 16:03:24] MISSED: thank you for watching!
+[2025-03-09 16:03:27] MISSED: thank you for watching!
+[2025-03-09 16:03:30] MISSED: thank you.
+[2025-03-09 16:03:33] MISSED: thank you.
+[2025-03-09 16:03:36] MISSED: thank you.
+[2025-03-09 16:03:39] MISSED: thank you.
+[2025-03-09 16:03:42] MISSED: thank you for watching!
+[2025-03-09 16:03:45] MISSED: thank you for watching!
+[2025-03-09 16:03:48] MISSED: thank you.
+[2025-03-09 16:03:51] MISSED: thank you.
+[2025-03-09 16:03:54] MISSED: thank you.
+[2025-03-09 16:03:57] MISSED: thank you.
+[2025-03-09 16:04:00] MISSED: thank you.
+[2025-03-09 16:04:02] MISSED: thank you.
+[2025-03-09 16:04:05] MISSED: thank you.
+[2025-03-09 16:04:08] MISSED: thank you.
+[2025-03-09 16:04:11] MISSED: thank you for watching!
+[2025-03-09 16:04:14] MISSED: thank you.
+[2025-03-09 16:04:17] MISSED: thank you.
+[2025-03-09 16:04:20] MISSED: thank you.
+[2025-03-09 16:04:23] MISSED: thank you.
+[2025-03-09 16:04:26] MISSED: thank you.
+[2025-03-09 16:04:29] MISSED: thank you.
+[2025-03-09 16:04:32] MISSED: thank you.
+[2025-03-09 16:04:35] MISSED: thank you for watching!
+[2025-03-09 16:04:38] MISSED: thank you.
+[2025-03-09 16:04:41] MISSED: thank you.
+[2025-03-09 16:04:44] MISSED: thank you for watching!
+[2025-03-09 16:04:47] DETECTED (hey jarvis): hey jarvis.
+[2025-03-09 16:04:54] MISSED: do
+[2025-03-09 16:04:55] MISSED: thank you for watching!
+[2025-03-09 16:04:59] MISSED: thank you for watching!
+[2025-03-09 16:05:02] MISSED: 
+[2025-03-09 16:05:05] MISSED: thank you for watching!
+[2025-03-09 16:05:07] MISSED: thank you for watching!
+[2025-03-09 16:05:10] MISSED: thank you for watching!
+[2025-03-09 16:05:13] MISSED: thank you for watching.
+[2025-03-09 16:05:16] MISSED: thank you for watching!
+[2025-03-09 16:05:19] MISSED: thank you for watching!
+[2025-03-09 16:05:22] MISSED: thank you for watching!
+[2025-03-09 16:05:25] MISSED: thank you.
+[2025-03-09 16:05:28] MISSED: thank you.
+[2025-03-09 16:05:31] MISSED: thank you.
+[2025-03-09 16:05:34] MISSED: thank you.
+[2025-03-09 16:05:37] MISSED: thank you for watching.
+[2025-03-09 16:05:40] MISSED: thank you.
+[2025-03-09 16:05:43] MISSED: thank you.
+[2025-03-09 16:05:46] MISSED: 
+[2025-03-09 16:05:49] MISSED: thank you.
+[2025-03-09 16:05:51] MISSED: thank you.
+[2025-03-09 16:05:54] MISSED: thank you.
+[2025-03-09 16:05:57] MISSED: thank you.
+[2025-03-09 16:06:00] MISSED: thank you.
+[2025-03-09 16:06:03] MISSED: thank you.
+[2025-03-09 16:06:06] MISSED: thank you.
+[2025-03-09 16:06:09] MISSED: thank you.
+[2025-03-09 16:06:12] MISSED: thank you for watching!
+[2025-03-09 16:06:15] MISSED: thank you for watching!
+[2025-03-09 16:06:18] MISSED: thank you.
+[2025-03-09 16:06:21] MISSED: thank you.
+[2025-03-09 16:06:24] MISSED: thank you.
+[2025-03-09 16:06:27] MISSED: thank you.
+[2025-03-09 16:06:30] MISSED: thank you.
+[2025-03-09 16:06:33] MISSED: thank you.
+[2025-03-09 16:06:36] MISSED: thank you.
+[2025-03-09 16:06:39] MISSED: thank you.
+[2025-03-09 16:06:41] MISSED: thank you for watching.
+[2025-03-09 16:06:44] MISSED: thank you.
+[2025-03-09 16:06:47] MISSED: thank you for watching!
+[2025-03-09 16:06:50] MISSED: thank you for watching!
+[2025-03-09 16:06:53] MISSED: thank you for watching!
+[2025-03-09 16:06:56] MISSED: thank you.
+[2025-03-09 16:06:59] MISSED: thank you.
+[2025-03-09 16:07:02] MISSED: thank you.
+[2025-03-09 16:07:05] MISSED: thank you.
+[2025-03-09 16:07:08] MISSED: thank you.
+[2025-03-09 16:07:11] MISSED: thank you.
+[2025-03-09 16:07:14] MISSED: thank you.
+[2025-03-09 16:07:17] MISSED: thank you.
+[2025-03-09 16:07:20] MISSED: thank you.
+[2025-03-09 16:07:23] MISSED: thank you.
+[2025-03-09 16:07:26] MISSED: 
+[2025-03-09 16:07:29] MISSED: thank you for watching!
+[2025-03-09 16:07:32] MISSED: thank you.
+[2025-03-09 16:07:35] MISSED: thank you.
+[2025-03-09 16:07:37] MISSED: hey shark.
+[2025-03-09 16:07:40] MISSED: thanks.
+[2025-03-09 16:07:43] DETECTED (jarvis-like word): hey, travis.
+[2025-03-09 16:07:52] MISSED: 
+[2025-03-09 16:07:55] MISSED: 
+[2025-03-09 16:07:58] MISSED: 
+[2025-03-09 16:08:01] MISSED: 
+[2025-03-09 16:08:04] MISSED: 
+[2025-03-09 16:08:07] MISSED: 
+[2025-03-09 16:08:10] MISSED: thank you.
+[2025-03-09 16:08:13] MISSED: 
+[2025-03-09 16:08:16] MISSED: 
+[2025-03-09 16:08:19] MISSED: thank you.
+[2025-03-09 16:08:22] MISSED: 
+[2025-03-09 16:08:25] MISSED: 
+[2025-03-09 16:08:28] MISSED: 
+[2025-03-09 16:08:30] MISSED: thank you for watching!
+[2025-03-09 16:08:33] MISSED: thank you.
+[2025-03-09 16:08:36] MISSED: thank you.
+[2025-03-09 16:08:39] MISSED: thank you.
+[2025-03-09 16:08:42] MISSED: thank you for watching!
+[2025-03-09 16:08:45] MISSED: ご視聴ありがとうございました
+[2025-03-09 16:08:48] MISSED: thank you for watching!
+[2025-03-09 16:08:51] MISSED: thank you.
+[2025-03-09 16:08:54] MISSED: thank you.
+[2025-03-09 16:08:57] MISSED: thank you.
+[2025-03-09 16:09:00] MISSED: 
+[2025-03-09 16:09:03] MISSED: thank you.
+[2025-03-09 16:09:06] MISSED: thank you for watching!
+[2025-03-09 16:09:09] MISSED: thank you.
+[2025-03-09 16:09:12] MISSED: thank you.
+[2025-03-09 16:09:15] MISSED: thank you for watching!
+[2025-03-09 16:09:18] MISSED: thank you.
+[2025-03-09 16:09:21] MISSED: 
+[2025-03-09 16:09:23] MISSED: 
+[2025-03-09 16:09:26] MISSED: 
+[2025-03-09 16:09:29] MISSED: 
+[2025-03-09 16:09:32] MISSED: 
+[2025-03-09 16:09:35] MISSED: 
+[2025-03-09 16:09:38] MISSED: thank you.
+[2025-03-09 16:09:41] MISSED: 
+[2025-03-09 16:09:44] MISSED: 
+[2025-03-09 16:09:47] MISSED: 
+[2025-03-09 16:09:50] MISSED: 
+[2025-03-09 16:09:53] MISSED: 
+[2025-03-09 16:09:56] MISSED: 
+[2025-03-09 16:09:59] MISSED: thank you for watching!
+[2025-03-09 16:10:02] MISSED: thank you.
+[2025-03-09 16:10:05] MISSED: thank you for watching!
+[2025-03-09 16:10:08] DETECTED (hey jarvis): hey jarvis.
+[2025-03-09 16:10:28] MISSED: thank you for watching!
+[2025-03-09 16:10:31] MISSED: thank you for watching!
+[2025-03-09 16:10:34] MISSED: 
+[2025-03-09 16:10:37] MISSED: 
+[2025-03-09 16:10:40] MISSED: 
+[2025-03-09 16:10:43] MISSED: 
+[2025-03-09 16:10:46] MISSED: 
+[2025-03-09 16:10:49] MISSED: 
+[2025-03-09 16:10:52] MISSED: 
+[2025-03-09 16:10:55] MISSED: 
+[2025-03-09 16:10:58] MISSED: 
+[2025-03-09 16:11:01] MISSED: thank you.
+[2025-03-09 16:11:04] MISSED: thank you.
+[2025-03-09 16:11:07] MISSED: 
+[2025-03-09 16:11:10] MISSED: thank you for watching.
+[2025-03-09 16:11:12] MISSED: thank you.
+[2025-03-09 16:11:15] MISSED: thank you.
+[2025-03-09 16:11:18] MISSED: thank you.
+[2025-03-09 16:11:21] MISSED: thank you.
+[2025-03-09 16:11:24] MISSED: thank you.
+[2025-03-09 16:11:27] MISSED: thank you.
+[2025-03-09 16:11:30] MISSED: thank you.
+[2025-03-09 16:11:33] MISSED: thank you.
+[2025-03-09 16:11:36] MISSED: thank you for watching!
+[2025-03-09 16:11:39] MISSED: thank you for watching!
+[2025-03-09 16:11:42] MISSED: thank you for watching!
+[2025-03-09 16:11:45] MISSED: thank you.
+[2025-03-09 16:11:48] MISSED: thank you.
+[2025-03-09 16:11:51] MISSED: thank you.
+[2025-03-09 16:11:54] MISSED: thank you.
+[2025-03-09 16:11:57] MISSED: 
+[2025-03-09 16:12:00] MISSED: 
+[2025-03-09 16:12:03] MISSED: 
+[2025-03-09 16:12:05] MISSED: thank you.
+[2025-03-09 16:12:08] MISSED: 
+[2025-03-09 16:12:11] MISSED: 
+[2025-03-09 16:12:14] MISSED: thank you for watching!
+[2025-03-09 16:12:17] MISSED: thank you for watching!
+[2025-03-09 16:12:20] MISSED: thank you.
+[2025-03-09 16:12:23] MISSED: thank you for watching.
+[2025-03-09 16:12:26] MISSED: thank you.
+[2025-03-09 16:12:29] MISSED: 
+[2025-03-09 16:12:32] MISSED: thank you for watching!
+[2025-03-09 16:12:35] MISSED: thank you.
+[2025-03-09 16:12:38] MISSED: 
+[2025-03-09 16:12:41] MISSED: thank you.
+[2025-03-09 16:12:44] MISSED: 
+[2025-03-09 16:12:47] MISSED: hey, sharks.
+[2025-03-09 16:12:49] MISSED: thank you.
+[2025-03-09 16:12:52] MISSED: thank you.
+[2025-03-09 16:12:55] MISSED: thank you.
+[2025-03-09 16:12:58] MISSED: thank you.
+[2025-03-09 16:13:01] MISSED: 
+[2025-03-09 16:13:04] MISSED: thank you.
+[2025-03-09 16:13:07] MISSED: thank you.
+[2025-03-09 16:13:10] MISSED: hey, sharfus.
+[2025-03-09 16:13:13] MISSED: thanks for watching!
+[2025-03-09 16:13:16] MISSED: hey sharpies.
+[2025-03-09 16:13:19] MISSED: thank you.
+[2025-03-09 16:13:22] DETECTED (jarvis-like word): hey, travis.
+[2025-03-09 16:13:40] MISSED: thank you for watching!
+[2025-03-09 16:13:42] MISSED: thank you.
+[2025-03-09 16:13:46] MISSED: thank you.
+[2025-03-09 16:13:48] MISSED: thank you.
+[2025-03-09 16:13:51] MISSED: 
+[2025-03-09 16:13:54] MISSED: thank you for watching!
+[2025-03-09 16:13:57] MISSED: 
+[2025-03-09 16:14:00] MISSED: thank you for watching!
+[2025-03-09 16:14:03] MISSED: thank you.
+[2025-03-09 16:14:06] MISSED: thank you for watching!
+[2025-03-09 16:14:09] MISSED: 
+[2025-03-09 16:14:12] MISSED: 
+[2025-03-09 16:14:15] MISSED: thank you for watching!
+[2025-03-09 16:14:18] MISSED: thank you for watching!
+[2025-03-09 16:14:21] MISSED: thank you for watching!
+[2025-03-09 16:14:24] MISSED: 
+[2025-03-09 16:14:27] MISSED: 
+[2025-03-09 16:14:30] MISSED: thank you.
+[2025-03-09 16:14:33] MISSED: thank you.
+[2025-03-09 16:14:36] MISSED: thank you for watching!
+[2025-03-09 16:14:38] MISSED: 
+[2025-03-09 16:14:41] MISSED: thank you.
+[2025-03-09 16:14:44] MISSED: thank you.
+[2025-03-09 16:14:47] MISSED: thank you for watching!
+[2025-03-09 16:14:50] MISSED: 
+[2025-03-09 16:14:53] MISSED: 
+[2025-03-09 16:14:56] MISSED: 
+[2025-03-09 16:14:59] MISSED: thank you for watching!
+[2025-03-09 16:15:02] MISSED: 
+[2025-03-09 16:15:05] MISSED: thank you for watching!
+[2025-03-09 16:15:08] MISSED: 
+[2025-03-09 16:15:11] MISSED: thank you.
+[2025-03-09 16:15:14] MISSED: thank you.
+[2025-03-09 16:15:17] MISSED: thank you.
+[2025-03-09 16:15:20] MISSED: thank you.
+[2025-03-09 16:15:22] MISSED: 
+[2025-03-09 16:15:26] MISSED: 
+[2025-03-09 16:15:28] MISSED: thank you for watching!
+[2025-03-09 16:15:31] MISSED: thank you for watching.
+[2025-03-09 16:15:34] MISSED: thank you for watching!
+[2025-03-09 16:15:37] MISSED: 
+[2025-03-09 16:15:40] MISSED: 
+[2025-03-09 16:15:43] MISSED: thank you for watching!
+[2025-03-09 16:15:46] MISSED: thank you for watching!
+[2025-03-09 16:15:49] MISSED: 
+[2025-03-09 16:15:52] MISSED: 
+[2025-03-09 16:15:55] MISSED: 
+[2025-03-09 16:15:58] MISSED: 
+[2025-03-09 16:16:01] MISSED: 
+[2025-03-09 16:16:04] MISSED: 
+[2025-03-09 16:16:07] MISSED: thank you for watching!
+[2025-03-09 16:16:10] MISSED: thank you for watching!
+[2025-03-09 16:16:13] MISSED: thank you.
+[2025-03-09 16:16:16] MISSED: 
+[2025-03-09 16:16:19] MISSED: 
+[2025-03-09 16:16:22] MISSED: 
+[2025-03-09 16:16:24] MISSED: 
+[2025-03-09 16:16:27] MISSED: 
+[2025-03-09 16:16:30] MISSED: 
+[2025-03-09 16:16:33] MISSED: 
+[2025-03-09 16:16:36] MISSED: thank you.
+[2025-03-09 16:16:39] MISSED: thank you.
+[2025-03-09 16:16:42] MISSED: thank you.
+[2025-03-09 16:16:45] MISSED: 
+[2025-03-09 16:16:48] MISSED: 
+[2025-03-09 16:16:51] MISSED: thank you.
+[2025-03-09 16:16:54] MISSED: thank you.
+[2025-03-09 16:16:57] MISSED: thank you for watching!
+[2025-03-09 16:17:00] MISSED: thank you.
+[2025-03-09 16:17:03] MISSED: 
+[2025-03-09 16:17:06] MISSED: 
+[2025-03-09 16:17:09] MISSED: thank you for watching!
+[2025-03-09 16:17:11] MISSED: thank you.
+[2025-03-09 16:17:14] MISSED: thank you.
+[2025-03-09 16:17:17] MISSED: thank you.
+[2025-03-09 16:17:20] MISSED: thank you.
+[2025-03-09 16:17:23] MISSED: thank you.
+[2025-03-09 16:17:26] MISSED: thank you.
+[2025-03-09 16:17:29] MISSED: thank you.
+[2025-03-09 16:17:32] MISSED: thank you.
+[2025-03-09 16:17:35] MISSED: thank you.
+[2025-03-09 16:17:38] MISSED: thank you.
+[2025-03-09 16:17:41] MISSED: 
+[2025-03-09 16:17:44] MISSED: 
+[2025-03-09 16:17:47] MISSED: 
+[2025-03-09 16:17:50] MISSED: 
+[2025-03-09 16:17:53] MISSED: thank you for watching!
+[2025-03-09 16:17:56] MISSED: 
+[2025-03-09 16:17:59] MISSED: thank you for watching!
+[2025-03-09 16:18:01] MISSED: thank you.
+[2025-03-09 16:18:05] MISSED: thank you.
+[2025-03-09 16:18:08] MISSED: 
+[2025-03-09 16:18:10] MISSED: thank you.
+[2025-03-09 16:18:13] MISSED: 
+[2025-03-09 16:18:16] MISSED: 
+[2025-03-09 16:18:19] MISSED: 
+[2025-03-09 16:18:22] MISSED: 
+[2025-03-09 16:18:25] MISSED: 
+[2025-03-09 16:18:28] MISSED: 
+[2025-03-09 16:18:31] MISSED: thank you for watching!
+[2025-03-09 16:18:34] MISSED: 
+[2025-03-09 16:18:37] MISSED: 
+[2025-03-09 16:18:40] MISSED: thank you for watching!
+[2025-03-09 16:18:43] MISSED: 
+[2025-03-09 16:18:46] MISSED: 
+[2025-03-09 16:18:49] MISSED: 
+[2025-03-09 16:18:51] MISSED: thank you for watching!
+[2025-03-09 16:18:55] MISSED: thank you for watching!
+[2025-03-09 16:18:57] MISSED: thank you.
+[2025-03-09 16:19:00] MISSED: 
+[2025-03-09 16:19:03] MISSED: 
+[2025-03-09 16:19:06] MISSED: 
+[2025-03-09 16:19:09] MISSED: 
+[2025-03-09 16:19:12] MISSED: thank you.
+[2025-03-09 16:19:15] MISSED: thank you for watching!
+[2025-03-09 16:19:18] MISSED: 
+[2025-03-09 16:19:23] MISSED: 
+[2025-03-09 16:19:24] MISSED: 
+[2025-03-09 16:19:27] MISSED: 
+[2025-03-09 16:19:30] MISSED: 
+[2025-03-09 16:19:33] MISSED: thank you for watching!
+[2025-03-09 16:19:36] MISSED: 
+[2025-03-09 16:19:39] MISSED: 
+[2025-03-09 16:19:42] MISSED: thank you for watching!
+[2025-03-09 16:19:45] MISSED: thank you.
+[2025-03-09 16:19:48] MISSED: thank you.
+[2025-03-09 16:19:51] MISSED: thank you for watching.
+[2025-03-09 16:19:53] MISSED: 
+[2025-03-09 16:19:56] MISSED: 
+[2025-03-09 16:19:59] MISSED: 
+[2025-03-09 16:20:02] MISSED: 
+[2025-03-09 16:20:05] MISSED: thank you for watching!
+[2025-03-09 16:20:08] MISSED: 
+[2025-03-09 16:20:11] MISSED: 
+[2025-03-09 16:20:14] MISSED: 
+[2025-03-09 16:20:17] MISSED: 
+[2025-03-09 16:20:20] MISSED: thank you for watching!
+[2025-03-09 16:20:23] MISSED: 
+[2025-03-09 16:20:26] MISSED: 
+[2025-03-09 16:20:29] MISSED: 
+[2025-03-09 16:20:32] MISSED: thank you for watching!
+[2025-03-09 16:20:34] MISSED: thank you.
+[2025-03-09 16:20:38] MISSED: thank you for watching!
+[2025-03-09 16:20:41] MISSED: thank you.
+[2025-03-09 16:20:44] MISSED: thank you.
+[2025-03-09 16:20:47] MISSED: 
+[2025-03-09 16:20:49] MISSED: thank you.
+[2025-03-09 16:20:52] MISSED: thank you for watching!
+[2025-03-09 16:20:55] MISSED: thank you.
+[2025-03-09 16:20:58] MISSED: thank you.
+[2025-03-09 16:21:01] MISSED: thank you.
+[2025-03-09 16:21:04] MISSED: 
+[2025-03-09 16:21:07] MISSED: 
+[2025-03-09 16:21:10] MISSED: thank you for watching!
+[2025-03-09 16:21:13] MISSED: 
+[2025-03-09 16:21:16] MISSED: 
+[2025-03-09 16:21:19] MISSED: 
+[2025-03-09 16:21:22] MISSED: 
+[2025-03-09 16:21:25] MISSED: 
+[2025-03-09 16:21:28] MISSED: 
+[2025-03-09 16:21:31] MISSED: 
+[2025-03-09 16:21:33] MISSED: thank you.
+[2025-03-09 16:21:36] MISSED: thank you.
+[2025-03-09 16:21:39] MISSED: thank you.
+[2025-03-09 16:21:42] MISSED: 
+[2025-03-09 16:21:45] MISSED: thank you.
+[2025-03-09 16:21:48] MISSED: thank you.
+[2025-03-09 16:21:51] MISSED: thank you.
+[2025-03-09 16:21:54] MISSED: thank you.
+[2025-03-09 16:21:57] MISSED: thank you.
+[2025-03-09 16:22:00] MISSED: thank you.
+[2025-03-09 16:22:03] MISSED: thank you.
+[2025-03-09 16:22:06] MISSED: takk for ating med.
+[2025-03-09 16:22:09] MISSED: 
+[2025-03-09 16:22:12] MISSED: thank you for watching!
+[2025-03-09 16:22:15] MISSED: thank you.
+[2025-03-09 16:22:18] MISSED: thank you.
+[2025-03-09 16:22:21] MISSED: thank you.
+[2025-03-09 16:22:24] MISSED: thank you.
+[2025-03-09 16:22:27] MISSED: thank you for watching!
+[2025-03-09 16:22:29] MISSED: thank you for watching!
+[2025-03-09 16:22:32] MISSED: thank you.
+[2025-03-09 16:22:35] MISSED: thank you.
+[2025-03-09 16:22:38] MISSED: thank you.
+[2025-03-09 16:22:41] MISSED: thank you.
+[2025-03-09 16:22:44] MISSED: thank you.
+[2025-03-09 16:22:47] MISSED: thank you.
+[2025-03-09 16:22:50] MISSED: thank you.
+[2025-03-09 16:22:53] MISSED: thank you.
+[2025-03-09 16:22:56] MISSED: thank you.
+[2025-03-09 16:22:59] MISSED: thank you.
+[2025-03-09 16:23:02] MISSED: 
+[2025-03-09 16:23:05] MISSED: 
+[2025-03-09 16:23:08] MISSED: 
+[2025-03-09 16:23:11] MISSED: 
+[2025-03-09 16:23:13] MISSED: thank you.
+[2025-03-09 16:23:16] MISSED: thank you.
+[2025-03-09 16:23:20] MISSED: thank you for watching!
+[2025-03-09 16:23:23] MISSED: thank you for watching!
+[2025-03-09 16:23:25] MISSED: 
+[2025-03-09 16:23:28] MISSED: 
+[2025-03-09 16:23:31] MISSED: 
+[2025-03-09 16:23:34] MISSED: 
+[2025-03-09 16:23:37] MISSED: 
+[2025-03-09 16:23:40] MISSED: thank you for watching!
+[2025-03-09 16:23:43] MISSED: thank you.
+[2025-03-09 16:23:46] MISSED: 
+[2025-03-09 16:23:49] MISSED: thank you for watching!
+[2025-03-09 16:23:52] MISSED: 
+[2025-03-09 16:23:55] MISSED: thank you.
+[2025-03-09 16:23:58] MISSED: thank you.
+[2025-03-09 16:24:01] MISSED: thank you.
+[2025-03-09 16:24:04] MISSED: thank you.
+[2025-03-09 16:24:07] MISSED: thank you.
+[2025-03-09 16:24:10] MISSED: thank you.
+[2025-03-09 16:24:13] MISSED: ご視聴ありがとうございました
+[2025-03-09 16:24:15] MISSED: thank you.
+[2025-03-09 16:24:18] MISSED: thank you.
+[2025-03-09 16:24:21] MISSED: 
+[2025-03-09 16:24:24] MISSED: thank you.
+[2025-03-09 16:24:27] MISSED: thank you.
+[2025-03-09 16:24:30] MISSED: thank you.
+[2025-03-09 16:24:33] MISSED: thank you.
+[2025-03-09 16:24:36] MISSED: thank you.
+[2025-03-09 16:24:39] MISSED: 
+[2025-03-09 16:24:42] MISSED: thank you.
+[2025-03-09 16:24:45] MISSED: thank you.
+[2025-03-09 16:24:48] MISSED: thank you for watching!
+[2025-03-09 16:24:51] MISSED: thank you for watching!
+[2025-03-09 16:24:54] MISSED: thank you.
+[2025-03-09 16:24:57] MISSED: 
+[2025-03-09 16:24:59] MISSED: thank you for watching!
+[2025-03-09 16:25:03] MISSED: thank you.
+[2025-03-09 16:25:05] MISSED: thank you.
+[2025-03-09 16:25:08] MISSED: thank you.
+[2025-03-09 16:25:11] MISSED: thank you.
+[2025-03-09 16:25:14] MISSED: thank you for watching!
+[2025-03-09 16:25:17] MISSED: thank you.
+[2025-03-09 16:25:20] MISSED: thank you.
+[2025-03-09 16:25:23] MISSED: 
+[2025-03-09 16:25:26] MISSED: thank you.
+[2025-03-09 16:25:29] MISSED: thank you for watching!
+[2025-03-09 16:25:32] MISSED: ご視聴ありがとうございました
+[2025-03-09 16:25:35] MISSED: thank you.
+[2025-03-09 16:25:38] MISSED: thank you.
+[2025-03-09 16:25:41] MISSED: thank you.
+[2025-03-09 16:25:44] MISSED: thank you.
+[2025-03-09 16:25:47] MISSED: 
+[2025-03-09 16:25:50] MISSED: 
+[2025-03-09 16:25:53] MISSED: thank you for watching!
+[2025-03-09 16:25:56] MISSED: thank you.
+[2025-03-09 16:25:58] MISSED: thank you.
+[2025-03-09 16:26:02] MISSED: 
+[2025-03-09 16:26:04] MISSED: thank you.
+[2025-03-09 16:26:07] MISSED: thank you for watching!
+[2025-03-09 16:26:10] MISSED: 
+[2025-03-09 16:26:13] MISSED: 
+[2025-03-09 16:26:16] MISSED: 
+[2025-03-09 16:26:19] MISSED: thank you.
+[2025-03-09 16:26:22] MISSED: 
+[2025-03-09 16:26:25] MISSED: 
+[2025-03-09 16:26:28] MISSED: thank you.
+[2025-03-09 16:26:31] MISSED: 
+[2025-03-09 16:26:34] MISSED: thank you.
+[2025-03-09 16:26:37] MISSED: thank you.
+[2025-03-09 16:26:40] MISSED: thank you.
+[2025-03-09 16:26:43] MISSED: 
+[2025-03-09 16:26:46] MISSED: 
+[2025-03-09 16:26:49] MISSED: 
+[2025-03-09 16:26:52] MISSED: thank you for watching!
+[2025-03-09 16:26:54] MISSED: thank you.
+[2025-03-09 16:26:57] MISSED: thank you.
+[2025-03-09 16:27:00] MISSED: thank you.
+[2025-03-09 16:27:03] MISSED: thank you.
+[2025-03-09 16:27:06] MISSED: thank you.
+[2025-03-09 16:27:09] MISSED: 
+[2025-03-09 16:27:12] MISSED: thank you.
+[2025-03-09 16:27:15] MISSED: thank you for watching!
+[2025-03-09 16:27:18] MISSED: thank you for watching!
+[2025-03-09 16:27:21] MISSED: thank you.
+[2025-03-09 16:27:24] MISSED: thank you.
+[2025-03-09 16:27:27] MISSED: thank you.
+[2025-03-09 16:27:30] MISSED: thank you for watching!
+[2025-03-09 16:27:33] MISSED: thank you for watching!
+[2025-03-09 16:27:36] MISSED: thank you.
+[2025-03-09 16:27:39] MISSED: thank you.
+[2025-03-09 16:27:42] MISSED: thank you.
+[2025-03-09 16:27:44] MISSED: thank you.
+[2025-03-09 16:27:48] MISSED: thank you.
+[2025-03-09 16:27:50] MISSED: thank you.
+[2025-03-09 16:27:53] MISSED: thank you.
+[2025-03-09 16:27:56] MISSED: thank you.
+[2025-03-09 16:27:59] MISSED: thank you.
+[2025-03-09 16:28:02] MISSED: thank you.
+[2025-03-09 16:28:05] MISSED: thank you for watching!
+[2025-03-09 16:28:08] MISSED: thank you.
+[2025-03-09 16:28:11] MISSED: 
+
+--- New session started: 2025-03-10 10:31:05 ---
+[2025-03-10 10:31:13] MISSED: thank you for watching!
+[2025-03-10 10:31:15] MISSED: thank you.
+[2025-03-10 10:31:18] MISSED: hey.
+[2025-03-10 10:31:21] MISSED: service
+[2025-03-10 10:31:24] MISSED: thank you.
+[2025-03-10 10:31:27] MISSED: thank you.
+[2025-03-10 10:31:30] DETECTED (hey jarvis): hey jarvis.
+[2025-03-10 10:31:47] MISSED: takk for ating med.
+[2025-03-10 10:31:50] MISSED: 
+[2025-03-10 10:31:53] MISSED: thank you.
+[2025-03-10 10:31:56] MISSED: thank you.
+[2025-03-10 10:31:59] MISSED: thank you for watching!
+[2025-03-10 10:32:02] MISSED: thank you.
+[2025-03-10 10:32:05] MISSED: 
+[2025-03-10 10:32:08] MISSED: thank you for watching.
+
+--- New session started: 2025-03-10 10:36:11 ---
+[2025-03-10 10:36:18] MISSED: thank you.
+[2025-03-10 10:36:21] MISSED: hey, charvis.
+[2025-03-10 10:36:24] MISSED: thank you.
+[2025-03-10 10:36:27] DETECTED (hey jarvis): hey jarvis.
+[2025-03-10 10:36:44] MISSED: thank you.
+[2025-03-10 10:36:47] MISSED: thank you.
+[2025-03-10 10:36:50] MISSED: thank you.
+[2025-03-10 10:36:53] MISSED: thank you.
+[2025-03-10 10:36:56] MISSED: thank you.
+[2025-03-10 10:36:59] MISSED: thank you.
+
+--- New session started: 2025-03-10 10:38:40 ---
+[2025-03-10 10:38:47] MISSED: thank you for watching!
+[2025-03-10 10:38:49] MISSED: thank you.
+[2025-03-10 10:38:53] MISSED: hej, service!
+[2025-03-10 10:38:56] DETECTED (hey jarvis): hey jarvis.
+[2025-03-10 10:39:10] MISSED: thank you.
+[2025-03-10 10:39:13] MISSED: thank you.
+[2025-03-10 10:39:16] MISSED: takk for ating med.
+[2025-03-10 10:39:19] MISSED: 
+[2025-03-10 10:39:22] MISSED: thank you.
+[2025-03-10 10:39:25] MISSED: thank you for watching!
+[2025-03-10 10:39:28] MISSED: thank you.
+[2025-03-10 10:39:31] MISSED: thank you.
+[2025-03-10 10:39:34] MISSED: thank you.
+[2025-03-10 10:39:37] MISSED: thank you for watching!
+[2025-03-10 10:39:40] MISSED: thank you.
+[2025-03-10 10:39:43] MISSED: thank you.
+[2025-03-10 10:39:46] MISSED: thank you.
+[2025-03-10 10:39:48] MISSED: thank you.
+[2025-03-10 10:39:51] MISSED: thank you.
+[2025-03-10 10:39:54] MISSED: thank you.
+[2025-03-10 10:39:57] MISSED: 
+[2025-03-10 10:40:00] MISSED: thank you.
+[2025-03-10 10:40:03] MISSED: thank you.
+[2025-03-10 10:40:06] MISSED: 
+[2025-03-10 10:40:09] MISSED: thank you.
+[2025-03-10 10:40:12] MISSED: thank you.
+[2025-03-10 10:40:15] MISSED: thank you.
+[2025-03-10 10:40:18] MISSED: thank you.
+[2025-03-10 10:40:21] MISSED: thank you.
+[2025-03-10 10:40:24] MISSED: thank you.
+[2025-03-10 10:40:27] MISSED: thank you for watching!
+[2025-03-10 10:40:30] MISSED: thank you for watching!
+[2025-03-10 10:40:33] MISSED: thank you for watching!
+[2025-03-10 10:40:35] MISSED: thank you for watching!
+[2025-03-10 10:40:38] MISSED: thank you.
+[2025-03-10 10:40:41] MISSED: thank you.
+[2025-03-10 10:40:44] MISSED: thank you.
+[2025-03-10 10:40:47] MISSED: thank you.
+[2025-03-10 10:40:50] MISSED: thank you.
+[2025-03-10 10:40:53] MISSED: thank you for watching!
+[2025-03-10 10:40:56] MISSED: thank you.
+[2025-03-10 10:40:59] MISSED: thank you.
+[2025-03-10 10:41:02] MISSED: thank you for watching.
+[2025-03-10 10:41:05] MISSED: thank you.
+[2025-03-10 10:41:08] MISSED: thank you.
+[2025-03-10 10:41:11] MISSED: thank you.
+[2025-03-10 10:41:14] MISSED: thank you.
+[2025-03-10 10:41:17] MISSED: thank you.
